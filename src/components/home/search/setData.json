@@ -1,0 +1,3934 @@
+[
+  {
+    "set_name": "Murders at Karlov Manor Tokens",
+    "set": "tmkm"
+  },
+  {
+    "set_name": "Unglued",
+    "set": "ugl"
+  },
+  {
+    "set_name": "Born of the Gods Tokens",
+    "set": "tbng"
+  },
+  {
+    "set_name": "Commander 2016 Tokens",
+    "set": "tc16"
+  },
+  {
+    "set_name": "March of the Machine Art Series",
+    "set": "amom"
+  },
+  {
+    "set_name": "Premium Deck Series: Graveborn",
+    "set": "pd3"
+  },
+  {
+    "set_name": "Happy Holidays",
+    "set": "hho"
+  },
+  {
+    "set_name": "Unfinity Sticker Sheets",
+    "set": "sunf"
+  },
+  {
+    "set_name": "Champions of Kamigawa Promos",
+    "set": "pchk"
+  },
+  {
+    "set_name": "Scars of Mirrodin Promos",
+    "set": "psom"
+  },
+  {
+    "set_name": "Time Spiral Remastered Tokens",
+    "set": "ttsr"
+  },
+  {
+    "set_name": "Duel Decks: Blessed vs. Cursed",
+    "set": "ddq"
+  },
+  {
+    "set_name": "Alara Reborn Promos",
+    "set": "parb"
+  },
+  {
+    "set_name": "Battle for Baldur's Gate Art Series",
+    "set": "aclb"
+  },
+  {
+    "set_name": "Eventide Tokens",
+    "set": "teve"
+  },
+  {
+    "set_name": "2018 Heroes of the Realm",
+    "set": "ph18"
+  },
+  {
+    "set_name": "2016 Heroes of the Realm",
+    "set": "phtr"
+  },
+  {
+    "set_name": "Fate Reforged Clash Pack",
+    "set": "cp2"
+  },
+  {
+    "set_name": "Fate Reforged Promos",
+    "set": "pfrf"
+  },
+  {
+    "set_name": "Arena Beginner Set",
+    "set": "anb"
+  },
+  {
+    "set_name": "Streets of New Capenna Southeast Asia Tokens",
+    "set": "ptsnc"
+  },
+  {
+    "set_name": "Duel Decks: Merfolk vs. Goblins",
+    "set": "ddt"
+  },
+  {
+    "set_name": "Ultimate Masters",
+    "set": "uma"
+  },
+  {
+    "set_name": "Innistrad: Midnight Hunt Substitute Cards",
+    "set": "smid"
+  },
+  {
+    "set_name": "Magic Origins Tokens",
+    "set": "tori"
+  },
+  {
+    "set_name": "Ixalan",
+    "set": "xln"
+  },
+  {
+    "set_name": "March of the Machine Commander",
+    "set": "moc"
+  },
+  {
+    "set_name": "Neon Dynasty Art Series",
+    "set": "aneo"
+  },
+  {
+    "set_name": "Aether Revolt",
+    "set": "aer"
+  },
+  {
+    "set_name": "Phyrexia: All Will Be One Jumpstart Front Cards",
+    "set": "fone"
+  },
+  {
+    "set_name": "Final Fantasy Tokens",
+    "set": "tfin"
+  },
+  {
+    "set_name": "Duels of the Planeswalkers 2010 Promos",
+    "set": "pdp10"
+  },
+  {
+    "set_name": "Theros Promos",
+    "set": "pths"
+  },
+  {
+    "set_name": "Midnight Hunt Art Series",
+    "set": "amid"
+  },
+  {
+    "set_name": "15th Anniversary Cards",
+    "set": "p15a"
+  },
+  {
+    "set_name": "Duel Decks: Ajani vs. Nicol Bolas Tokens",
+    "set": "tddh"
+  },
+  {
+    "set_name": "Masters 25 Tokens",
+    "set": "ta25"
+  },
+  {
+    "set_name": "Murders at Karlov Manor Commander",
+    "set": "mkc"
+  },
+  {
+    "set_name": "Worldwake Tokens",
+    "set": "twwk"
+  },
+  {
+    "set_name": "Explorers of Ixalan",
+    "set": "e02"
+  },
+  {
+    "set_name": "Commander Legends Promos",
+    "set": "pcmr"
+  },
+  {
+    "set_name": "Odyssey Promos",
+    "set": "pody"
+  },
+  {
+    "set_name": "Tarkir: Dragonstorm Art Series",
+    "set": "atdm"
+  },
+  {
+    "set_name": "Urza's Destiny",
+    "set": "uds"
+  },
+  {
+    "set_name": "Modern Horizons 2 Timeshifts",
+    "set": "h2r"
+  },
+  {
+    "set_name": "Commander 2018 Oversized",
+    "set": "oc18"
+  },
+  {
+    "set_name": "MKM Standard Showdown",
+    "set": "pss4"
+  },
+  {
+    "set_name": "Journey into Nyx Tokens",
+    "set": "tjou"
+  },
+  {
+    "set_name": "Year of the Ox 2021",
+    "set": "pl21"
+  },
+  {
+    "set_name": "Commander 2015 Oversized",
+    "set": "oc15"
+  },
+  {
+    "set_name": "World Championship Decks 2003",
+    "set": "wc03"
+  },
+  {
+    "set_name": "Duel Decks: Mind vs. Might Tokens",
+    "set": "tdds"
+  },
+  {
+    "set_name": "Warhammer 40,000 Tokens",
+    "set": "t40k"
+  },
+  {
+    "set_name": "Gatecrash Promos",
+    "set": "pgtc"
+  },
+  {
+    "set_name": "Alara Reborn",
+    "set": "arb"
+  },
+  {
+    "set_name": "Foreign Black Border",
+    "set": "fbb"
+  },
+  {
+    "set_name": "Magic 2014",
+    "set": "m14"
+  },
+  {
+    "set_name": "The Brothers' War Art Series",
+    "set": "abro"
+  },
+  {
+    "set_name": "Breaking News Tokens",
+    "set": "totp"
+  },
+  {
+    "set_name": "Tales of Middle-earth Deluxe Commander Kit",
+    "set": "pltc"
+  },
+  {
+    "set_name": "The List (Unfinity Foil Edition)",
+    "set": "ulst"
+  },
+  {
+    "set_name": "Magic Online Theme Decks",
+    "set": "td0"
+  },
+  {
+    "set_name": "Rise of the Eldrazi",
+    "set": "roe"
+  },
+  {
+    "set_name": "Starter 2000",
+    "set": "s00"
+  },
+  {
+    "set_name": "Dominaria",
+    "set": "dom"
+  },
+  {
+    "set_name": "Magic Player Rewards 2008",
+    "set": "p08"
+  },
+  {
+    "set_name": "Theros Beyond Death Tokens",
+    "set": "tthb"
+  },
+  {
+    "set_name": "Friday Night Magic 2011",
+    "set": "f11"
+  },
+  {
+    "set_name": "Modern Horizons 3 Commander Tokens",
+    "set": "tm3c"
+  },
+  {
+    "set_name": "Prophecy Promos",
+    "set": "ppcy"
+  },
+  {
+    "set_name": "March of the Machine Promos",
+    "set": "pmom"
+  },
+  {
+    "set_name": "Pro Tour Collector Set",
+    "set": "ptc"
+  },
+  {
+    "set_name": "Friday Night Magic 2017",
+    "set": "f17"
+  },
+  {
+    "set_name": "Phyrexia: All Will Be One Art Series",
+    "set": "aone"
+  },
+  {
+    "set_name": "Throne of Eldraine",
+    "set": "eld"
+  },
+  {
+    "set_name": "Store Championships",
+    "set": "sch"
+  },
+  {
+    "set_name": "Alchemy: Outlaws of Thunder Junction",
+    "set": "yotj"
+  },
+  {
+    "set_name": "Rivals Quick Start Set",
+    "set": "rqs"
+  },
+  {
+    "set_name": "Gatecrash Tokens",
+    "set": "tgtc"
+  },
+  {
+    "set_name": "Portal Second Age",
+    "set": "p02"
+  },
+  {
+    "set_name": "Born of the Gods",
+    "set": "bng"
+  },
+  {
+    "set_name": "Duel Decks Anthology: Divine vs. Demonic",
+    "set": "dvd"
+  },
+  {
+    "set_name": "Tenth Edition Tokens",
+    "set": "t10e"
+  },
+  {
+    "set_name": "Magic 2011 Tokens",
+    "set": "tm11"
+  },
+  {
+    "set_name": "The Lord of the Rings: Tales of Middle-earth Minigames",
+    "set": "mltr"
+  },
+  {
+    "set_name": "Friday Night Magic 2000",
+    "set": "fnm"
+  },
+  {
+    "set_name": "Historic Anthology 1",
+    "set": "ha1"
+  },
+  {
+    "set_name": "Dragons of Tarkir Tokens",
+    "set": "tdtk"
+  },
+  {
+    "set_name": "Duel Decks Anthology: Garruk vs. Liliana",
+    "set": "gvl"
+  },
+  {
+    "set_name": "Judge Gift Cards 2008",
+    "set": "g08"
+  },
+  {
+    "set_name": "Zendikar Promos",
+    "set": "pzen"
+  },
+  {
+    "set_name": "Love Your LGS 2025",
+    "set": "plg25"
+  },
+  {
+    "set_name": "Nemesis Promos",
+    "set": "pnem"
+  },
+  {
+    "set_name": "Magic Player Rewards 2002",
+    "set": "pr2"
+  },
+  {
+    "set_name": "Duel Decks: Elves vs. Inventors",
+    "set": "ddu"
+  },
+  {
+    "set_name": "Duel Decks: Elves vs. Goblins",
+    "set": "dd1"
+  },
+  {
+    "set_name": "Regional Championship Qualifiers 2023",
+    "set": "pr23"
+  },
+  {
+    "set_name": "Battle for Baldur's Gate Oversized Cards",
+    "set": "oclb"
+  },
+  {
+    "set_name": "Modern Horizons Art Series",
+    "set": "amh1"
+  },
+  {
+    "set_name": "Friday Night Magic 2016",
+    "set": "f16"
+  },
+  {
+    "set_name": "Assassin's Creed Tokens",
+    "set": "tacr"
+  },
+  {
+    "set_name": "2023 Heroes of the Realm",
+    "set": "ph23"
+  },
+  {
+    "set_name": "Wilds of Eldraine Art Series",
+    "set": "awoe"
+  },
+  {
+    "set_name": "Chronicles",
+    "set": "chr"
+  },
+  {
+    "set_name": "Classic Sixth Edition",
+    "set": "6ed"
+  },
+  {
+    "set_name": "March of the Machine Substitute Cards",
+    "set": "smom"
+  },
+  {
+    "set_name": "Duel Decks: Elves vs. Goblins Tokens",
+    "set": "tdd1"
+  },
+  {
+    "set_name": "Magic Player Rewards 2003",
+    "set": "p03"
+  },
+  {
+    "set_name": "Core Set 2019 Promos",
+    "set": "pm19"
+  },
+  {
+    "set_name": "Mercadian Masques",
+    "set": "mmq"
+  },
+  {
+    "set_name": "The Brothers' War Tokens",
+    "set": "tbro"
+  },
+  {
+    "set_name": "Summer Vacation Promos 2022",
+    "set": "psvc"
+  },
+  {
+    "set_name": "World Championship Decks 2000",
+    "set": "wc00"
+  },
+  {
+    "set_name": "MicroProse Promos",
+    "set": "pmic"
+  },
+  {
+    "set_name": "Limited Edition Alpha",
+    "set": "lea"
+  },
+  {
+    "set_name": "Foundations Jumpstart",
+    "set": "j25"
+  },
+  {
+    "set_name": "Foundations",
+    "set": "fdn"
+  },
+  {
+    "set_name": "Jumpstart Arena Exclusives",
+    "set": "ajmp"
+  },
+  {
+    "set_name": "Bloomburrow Art Series",
+    "set": "ablb"
+  },
+  {
+    "set_name": "Assassin's Creed Art Series",
+    "set": "aacr"
+  },
+  {
+    "set_name": "30th Anniversary Edition",
+    "set": "30a"
+  },
+  {
+    "set_name": "Alara Reborn Tokens",
+    "set": "tarb"
+  },
+  {
+    "set_name": "Salvat 2011",
+    "set": "ps11"
+  },
+  {
+    "set_name": "Torment",
+    "set": "tor"
+  },
+  {
+    "set_name": "World Magic Cup Qualifiers",
+    "set": "wmc"
+  },
+  {
+    "set_name": "Friday Night Magic 2004",
+    "set": "f04"
+  },
+  {
+    "set_name": "Love Your LGS 2024",
+    "set": "plg24"
+  },
+  {
+    "set_name": "Guildpact",
+    "set": "gpt"
+  },
+  {
+    "set_name": "Return to Ravnica",
+    "set": "rtr"
+  },
+  {
+    "set_name": "Modern Event Deck 2014",
+    "set": "md1"
+  },
+  {
+    "set_name": "Arena League 2004",
+    "set": "pal04"
+  },
+  {
+    "set_name": "Game Day Promos",
+    "set": "gdy"
+  },
+  {
+    "set_name": "Warhammer 40,000 Commander",
+    "set": "40k"
+  },
+  {
+    "set_name": "Conflux",
+    "set": "con"
+  },
+  {
+    "set_name": "Torment Promos",
+    "set": "ptor"
+  },
+  {
+    "set_name": "Wizards Play Network 2012",
+    "set": "pw12"
+  },
+  {
+    "set_name": "MagicFest 2020",
+    "set": "pf20"
+  },
+  {
+    "set_name": "Fifth Dawn Promos",
+    "set": "p5dn"
+  },
+  {
+    "set_name": "Scars of Mirrodin",
+    "set": "som"
+  },
+  {
+    "set_name": "Crimson Vow Commander Display Commanders",
+    "set": "ovoc"
+  },
+  {
+    "set_name": "Wilds of Eldraine Commander Tokens",
+    "set": "twoc"
+  },
+  {
+    "set_name": "Judge Gift Cards 2006",
+    "set": "g06"
+  },
+  {
+    "set_name": "Dominaria United Southeast Asia Tokens",
+    "set": "ptdmu"
+  },
+  {
+    "set_name": "Forgotten Realms Commander Display Commanders",
+    "set": "oafc"
+  },
+  {
+    "set_name": "Urza's Saga",
+    "set": "usg"
+  },
+  {
+    "set_name": "Magic Player Rewards 2005",
+    "set": "p05"
+  },
+  {
+    "set_name": "Kaldheim Promos",
+    "set": "pkhm"
+  },
+  {
+    "set_name": "Kamigawa: Neon Dynasty",
+    "set": "neo"
+  },
+  {
+    "set_name": "Duel Decks: Elspeth vs. Kiora",
+    "set": "ddo"
+  },
+  {
+    "set_name": "XLN Standard Showdown",
+    "set": "pss2"
+  },
+  {
+    "set_name": "Theros",
+    "set": "ths"
+  },
+  {
+    "set_name": "Shadows over Innistrad",
+    "set": "soi"
+  },
+  {
+    "set_name": "Mystery Booster Playtest Cards 2021",
+    "set": "cmb2"
+  },
+  {
+    "set_name": "Wilds of Eldraine Tokens",
+    "set": "twoe"
+  },
+  {
+    "set_name": "Forgotten Realms Oversized Cards",
+    "set": "oafr"
+  },
+  {
+    "set_name": "Rivals of Ixalan",
+    "set": "rix"
+  },
+  {
+    "set_name": "Amonkhet Invocations",
+    "set": "mp2"
+  },
+  {
+    "set_name": "Challenger Decks 2022",
+    "set": "q07"
+  },
+  {
+    "set_name": "Innistrad: Crimson Vow Tokens",
+    "set": "tvow"
+  },
+  {
+    "set_name": "Judge Gift Cards 2017",
+    "set": "j17"
+  },
+  {
+    "set_name": "Judge Gift Cards 2002",
+    "set": "g02"
+  },
+  {
+    "set_name": "Archenemy: Nicol Bolas Schemes",
+    "set": "oe01"
+  },
+  {
+    "set_name": "Jumpstart: Historic Horizons",
+    "set": "j21"
+  },
+  {
+    "set_name": "Duel Decks: Jace vs. Vraska Tokens",
+    "set": "tddm"
+  },
+  {
+    "set_name": "Transformers Tokens",
+    "set": "tbot"
+  },
+  {
+    "set_name": "Multiverse Gift Box",
+    "set": "mgb"
+  },
+  {
+    "set_name": "Theros Beyond Death",
+    "set": "thb"
+  },
+  {
+    "set_name": "Oversized League Prizes",
+    "set": "olep"
+  },
+  {
+    "set_name": "Eventide Promos",
+    "set": "peve"
+  },
+  {
+    "set_name": "Commander Anthology Volume II Tokens",
+    "set": "tcm2"
+  },
+  {
+    "set_name": "Magic 2014 Promos",
+    "set": "pm14"
+  },
+  {
+    "set_name": "Urza's Saga Promos",
+    "set": "pusg"
+  },
+  {
+    "set_name": "Friday Night Magic 2001",
+    "set": "f01"
+  },
+  {
+    "set_name": "Fifth Edition",
+    "set": "5ed"
+  },
+  {
+    "set_name": "Urza's Legacy",
+    "set": "ulg"
+  },
+  {
+    "set_name": "Aetherdrift Art Series",
+    "set": "adft"
+  },
+  {
+    "set_name": "Core Set 2019",
+    "set": "m19"
+  },
+  {
+    "set_name": "Modern Horizons Promos",
+    "set": "pmh1"
+  },
+  {
+    "set_name": "Saviors of Kamigawa",
+    "set": "sok"
+  },
+  {
+    "set_name": "Modern Masters 2015 Tokens",
+    "set": "tmm2"
+  },
+  {
+    "set_name": "Duel Decks: Izzet vs. Golgari",
+    "set": "ddj"
+  },
+  {
+    "set_name": "Kaladesh Promos",
+    "set": "pkld"
+  },
+  {
+    "set_name": "Judgment Promos",
+    "set": "pjud"
+  },
+  {
+    "set_name": "Strixhaven: School of Mages Promos",
+    "set": "pstx"
+  },
+  {
+    "set_name": "Born of the Gods Promos",
+    "set": "pbng"
+  },
+  {
+    "set_name": "Magic 2014 Tokens",
+    "set": "tm14"
+  },
+  {
+    "set_name": "New Capenna Commander Tokens",
+    "set": "tncc"
+  },
+  {
+    "set_name": "World Championship Promos",
+    "set": "pwor"
+  },
+  {
+    "set_name": "Fifth Dawn",
+    "set": "5dn"
+  },
+  {
+    "set_name": "Alchemy: Aetherdrift",
+    "set": "ydft"
+  },
+  {
+    "set_name": "Dragon's Maze Tokens",
+    "set": "tdgm"
+  },
+  {
+    "set_name": "Ravnica: City of Guilds Promos",
+    "set": "prav"
+  },
+  {
+    "set_name": "Modern Masters Tokens",
+    "set": "tmma"
+  },
+  {
+    "set_name": "Stronghold",
+    "set": "sth"
+  },
+  {
+    "set_name": "Commander 2020 Tokens",
+    "set": "tc20"
+  },
+  {
+    "set_name": "Deckmasters",
+    "set": "dkm"
+  },
+  {
+    "set_name": "Tenth Edition",
+    "set": "10e"
+  },
+  {
+    "set_name": "Duels of the Planeswalkers 2009 Promos",
+    "set": "pdtp"
+  },
+  {
+    "set_name": "New Capenna Art Series",
+    "set": "asnc"
+  },
+  {
+    "set_name": "Aetherdrift Promos",
+    "set": "pdft"
+  },
+  {
+    "set_name": "Judge Gift Cards 2000",
+    "set": "g00"
+  },
+  {
+    "set_name": "Morningtide",
+    "set": "mor"
+  },
+  {
+    "set_name": "Champs and States",
+    "set": "pcmp"
+  },
+  {
+    "set_name": "Ravnica Allegiance Promos",
+    "set": "prna"
+  },
+  {
+    "set_name": "Dominaria Promos",
+    "set": "pdom"
+  },
+  {
+    "set_name": "European Land Program",
+    "set": "pelp"
+  },
+  {
+    "set_name": "Arena League 2006",
+    "set": "pal06"
+  },
+  {
+    "set_name": "Guildpact Promos",
+    "set": "pgpt"
+  },
+  {
+    "set_name": "M20 Promo Packs",
+    "set": "ppp1"
+  },
+  {
+    "set_name": "Revised Edition",
+    "set": "3ed"
+  },
+  {
+    "set_name": "Ravnica: Clue Edition Front Cards",
+    "set": "fclu"
+  },
+  {
+    "set_name": "The Big Score",
+    "set": "big"
+  },
+  {
+    "set_name": "Commander Legends Tokens",
+    "set": "tcmr"
+  },
+  {
+    "set_name": "Historic Anthology 4",
+    "set": "ha4"
+  },
+  {
+    "set_name": "Rivals of Ixalan Promos",
+    "set": "prix"
+  },
+  {
+    "set_name": "Duel Decks: Speed vs. Cunning",
+    "set": "ddn"
+  },
+  {
+    "set_name": "Judge Gift Cards 2014",
+    "set": "j14"
+  },
+  {
+    "set_name": "Modern Horizons 2 Minigames",
+    "set": "mmh2"
+  },
+  {
+    "set_name": "Throne of Eldraine Promos",
+    "set": "peld"
+  },
+  {
+    "set_name": "League Tokens 2017",
+    "set": "l17"
+  },
+  {
+    "set_name": "Magic Premiere Shop 2010",
+    "set": "pmps10"
+  },
+  {
+    "set_name": "Worldwake Promos",
+    "set": "pwwk"
+  },
+  {
+    "set_name": "Return to Ravnica Tokens",
+    "set": "trtr"
+  },
+  {
+    "set_name": "Neon Dynasty Commander Tokens",
+    "set": "tnec"
+  },
+  {
+    "set_name": "Tarkir: Dragonstorm Promos",
+    "set": "ptdm"
+  },
+  {
+    "set_name": "Pioneer Challenger Decks 2021",
+    "set": "q06"
+  },
+  {
+    "set_name": "Wizards Play Network 2022",
+    "set": "pw22"
+  },
+  {
+    "set_name": "Edge of Eternities Tokens",
+    "set": "teoe"
+  },
+  {
+    "set_name": "Dissension",
+    "set": "dis"
+  },
+  {
+    "set_name": "Duel Decks: Venser vs. Koth Tokens",
+    "set": "tddi"
+  },
+  {
+    "set_name": "Magic Origins Promos",
+    "set": "pori"
+  },
+  {
+    "set_name": "Innistrad: Midnight Hunt Minigames",
+    "set": "mmid"
+  },
+  {
+    "set_name": "Commander 2015 Tokens",
+    "set": "tc15"
+  },
+  {
+    "set_name": "Apocalypse",
+    "set": "apc"
+  },
+  {
+    "set_name": "Judge Gift Cards 1998",
+    "set": "jgp"
+  },
+  {
+    "set_name": "Innistrad Remastered Tokens",
+    "set": "tinr"
+  },
+  {
+    "set_name": "San Diego Comic-Con 2015",
+    "set": "ps15"
+  },
+  {
+    "set_name": "Alliances",
+    "set": "all"
+  },
+  {
+    "set_name": "Edge of Eternities Commander Tokens",
+    "set": "teoc"
+  },
+  {
+    "set_name": "The Brothers' War Substitute Cards",
+    "set": "sbro"
+  },
+  {
+    "set_name": "Dragon's Maze Promos",
+    "set": "pdgm"
+  },
+  {
+    "set_name": "Duels of the Planeswalkers 2012 Promos",
+    "set": "pdp12"
+  },
+  {
+    "set_name": "Ninth Edition",
+    "set": "9ed"
+  },
+  {
+    "set_name": "Duel Decks: Knights vs. Dragons Tokens",
+    "set": "tddg"
+  },
+  {
+    "set_name": "Avacyn Restored",
+    "set": "avr"
+  },
+  {
+    "set_name": "Outlaws of Thunder Junction",
+    "set": "otj"
+  },
+  {
+    "set_name": "Crimson Vow Commander Tokens",
+    "set": "tvoc"
+  },
+  {
+    "set_name": "Foundations Jumpstart Front Cards",
+    "set": "fj25"
+  },
+  {
+    "set_name": "Ikoria: Lair of Behemoths",
+    "set": "iko"
+  },
+  {
+    "set_name": "Duel Decks: Phyrexia vs. the Coalition Tokens",
+    "set": "tdde"
+  },
+  {
+    "set_name": "Duel Decks: Elspeth vs. Tezzeret Tokens",
+    "set": "tddf"
+  },
+  {
+    "set_name": "Judgment",
+    "set": "jud"
+  },
+  {
+    "set_name": "Arena League 2000",
+    "set": "pal00"
+  },
+  {
+    "set_name": "Champions of Kamigawa",
+    "set": "chk"
+  },
+  {
+    "set_name": "Universes Within",
+    "set": "slx"
+  },
+  {
+    "set_name": "Legendary Cube Prize Pack",
+    "set": "pz1"
+  },
+  {
+    "set_name": "M15 Prerelease Challenge",
+    "set": "ppc1"
+  },
+  {
+    "set_name": "Eternal Masters Tokens",
+    "set": "tema"
+  },
+  {
+    "set_name": "Shadowmoor",
+    "set": "shm"
+  },
+  {
+    "set_name": "Summer Magic / Edgar",
+    "set": "sum"
+  },
+  {
+    "set_name": "Zendikar Rising",
+    "set": "znr"
+  },
+  {
+    "set_name": "Kaldheim Commander Tokens",
+    "set": "tkhc"
+  },
+  {
+    "set_name": "Battle the Horde",
+    "set": "tbth"
+  },
+  {
+    "set_name": "Conspiracy Promos",
+    "set": "pcns"
+  },
+  {
+    "set_name": "Japan Junior Tournament",
+    "set": "pjjt"
+  },
+  {
+    "set_name": "Arena New Player Experience Cards",
+    "set": "oana"
+  },
+  {
+    "set_name": "Open the Helvault",
+    "set": "phel"
+  },
+  {
+    "set_name": "Dominaria United Promos",
+    "set": "pdmu"
+  },
+  {
+    "set_name": "Mirrodin Besieged Promos",
+    "set": "pmbs"
+  },
+  {
+    "set_name": "Kamigawa: Neon Dynasty Minigames",
+    "set": "mneo"
+  },
+  {
+    "set_name": "Dominaria United",
+    "set": "dmu"
+  },
+  {
+    "set_name": "Judge Gift Cards 2003",
+    "set": "g03"
+  },
+  {
+    "set_name": "Duel Decks Anthology: Elves vs. Goblins",
+    "set": "evg"
+  },
+  {
+    "set_name": "Magic Player Rewards 2004",
+    "set": "p04"
+  },
+  {
+    "set_name": "Weatherlight",
+    "set": "wth"
+  },
+  {
+    "set_name": "Love Your LGS 2022",
+    "set": "plg22"
+  },
+  {
+    "set_name": "Streets of New Capenna Minigames",
+    "set": "msnc"
+  },
+  {
+    "set_name": "Historic Anthology 3",
+    "set": "ha3"
+  },
+  {
+    "set_name": "Magic 2013",
+    "set": "m13"
+  },
+  {
+    "set_name": "Chronicles Foreign Black Border",
+    "set": "bchr"
+  },
+  {
+    "set_name": "Starter Commander Deck Tokens",
+    "set": "tscd"
+  },
+  {
+    "set_name": "Alchemy: Wilds of Eldraine",
+    "set": "ywoe"
+  },
+  {
+    "set_name": "Coldsnap",
+    "set": "csp"
+  },
+  {
+    "set_name": "Commander 2020",
+    "set": "c20"
+  },
+  {
+    "set_name": "Modern Masters 2017 Tokens",
+    "set": "tmm3"
+  },
+  {
+    "set_name": "Limited Edition Beta",
+    "set": "leb"
+  },
+  {
+    "set_name": "Planechase 2012",
+    "set": "pc2"
+  },
+  {
+    "set_name": "Judge Gift Cards 2015",
+    "set": "j15"
+  },
+  {
+    "set_name": "Alchemy: Murders at Karlov Manor ",
+    "set": "ymkm"
+  },
+  {
+    "set_name": "Commander 2017 Oversized",
+    "set": "oc17"
+  },
+  {
+    "set_name": "Shards of Alara",
+    "set": "ala"
+  },
+  {
+    "set_name": "Rinascimento",
+    "set": "rin"
+  },
+  {
+    "set_name": "Strixhaven: School of Mages Minigames",
+    "set": "mstx"
+  },
+  {
+    "set_name": "Scourge",
+    "set": "scg"
+  },
+  {
+    "set_name": "Assassin's Creed",
+    "set": "acr"
+  },
+  {
+    "set_name": "Fallout Tokens",
+    "set": "tpip"
+  },
+  {
+    "set_name": "Duel Decks: Heroes vs. Monsters",
+    "set": "ddl"
+  },
+  {
+    "set_name": "Kaldheim Minigames",
+    "set": "mkhm"
+  },
+  {
+    "set_name": "Vintage Championship",
+    "set": "ovnt"
+  },
+  {
+    "set_name": "The Brothers' War",
+    "set": "bro"
+  },
+  {
+    "set_name": "League Tokens 2012",
+    "set": "l12"
+  },
+  {
+    "set_name": "Duel Decks: Phyrexia vs. the Coalition",
+    "set": "dde"
+  },
+  {
+    "set_name": "Neon Dynasty Commander",
+    "set": "nec"
+  },
+  {
+    "set_name": "Commander 2015",
+    "set": "c15"
+  },
+  {
+    "set_name": "Friday Night Magic 2018",
+    "set": "f18"
+  },
+  {
+    "set_name": "Masters Edition IV",
+    "set": "me4"
+  },
+  {
+    "set_name": "Morningtide Tokens",
+    "set": "tmor"
+  },
+  {
+    "set_name": "Kaldheim",
+    "set": "khm"
+  },
+  {
+    "set_name": "Signature Spellbook: Jace",
+    "set": "ss1"
+  },
+  {
+    "set_name": "Tarkir: Dragonstorm",
+    "set": "tdm"
+  },
+  {
+    "set_name": "Modern Horizons 2",
+    "set": "mh2"
+  },
+  {
+    "set_name": "IDW Comics Inserts",
+    "set": "pidw"
+  },
+  {
+    "set_name": "Innistrad",
+    "set": "isd"
+  },
+  {
+    "set_name": "Magic Premiere Shop 2007",
+    "set": "pmps07"
+  },
+  {
+    "set_name": "Dominaria United Commander",
+    "set": "dmc"
+  },
+  {
+    "set_name": "From the Vault: Exiled",
+    "set": "v09"
+  },
+  {
+    "set_name": "Wizards Play Network 2023",
+    "set": "pw23"
+  },
+  {
+    "set_name": "Modern Masters 2017",
+    "set": "mm3"
+  },
+  {
+    "set_name": "Kaldheim Art Series",
+    "set": "akhm"
+  },
+  {
+    "set_name": "Archenemy: Nicol Bolas",
+    "set": "e01"
+  },
+  {
+    "set_name": "Face the Hydra",
+    "set": "tfth"
+  },
+  {
+    "set_name": "Duel Decks: Heroes vs. Monsters Tokens",
+    "set": "tddl"
+  },
+  {
+    "set_name": "Outlaws of Thunder Junction Promos",
+    "set": "potj"
+  },
+  {
+    "set_name": "Midnight Hunt Commander Display Commanders",
+    "set": "omic"
+  },
+  {
+    "set_name": "Mirrodin Besieged Tokens",
+    "set": "tmbs"
+  },
+  {
+    "set_name": "Planechase Anthology Planes",
+    "set": "opca"
+  },
+  {
+    "set_name": "Arena League 2002",
+    "set": "pal02"
+  },
+  {
+    "set_name": "GRN Ravnica Weekend",
+    "set": "prwk"
+  },
+  {
+    "set_name": "Scourge Promos",
+    "set": "pscg"
+  },
+  {
+    "set_name": "GRN Guild Kit Tokens",
+    "set": "tgk1"
+  },
+  {
+    "set_name": "Explorer Anthology 3",
+    "set": "ea3"
+  },
+  {
+    "set_name": "MagicFest 2023",
+    "set": "pf23"
+  },
+  {
+    "set_name": "Apocalypse Promos",
+    "set": "papc"
+  },
+  {
+    "set_name": "Prophecy",
+    "set": "pcy"
+  },
+  {
+    "set_name": "Commander 2021 Tokens",
+    "set": "tc21"
+  },
+  {
+    "set_name": "Pioneer Masters",
+    "set": "pio"
+  },
+  {
+    "set_name": "Breaking News",
+    "set": "otp"
+  },
+  {
+    "set_name": "Celebration Cards",
+    "set": "pcel"
+  },
+  {
+    "set_name": "Shadows over Innistrad Remastered",
+    "set": "sir"
+  },
+  {
+    "set_name": "Guilds of Ravnica Promos",
+    "set": "pgrn"
+  },
+  {
+    "set_name": "Khans of Tarkir Tokens",
+    "set": "tktk"
+  },
+  {
+    "set_name": "Core Set 2020 Tokens",
+    "set": "tm20"
+  },
+  {
+    "set_name": "Journey into Nyx",
+    "set": "jou"
+  },
+  {
+    "set_name": "Edge of Eternities",
+    "set": "eoe"
+  },
+  {
+    "set_name": "Phyrexia: All Will Be One Commander",
+    "set": "onc"
+  },
+  {
+    "set_name": "Magic 2011",
+    "set": "m11"
+  },
+  {
+    "set_name": "Sega Dreamcast Cards",
+    "set": "psdg"
+  },
+  {
+    "set_name": "Outlaws of Thunder Junction Tokens",
+    "set": "totj"
+  },
+  {
+    "set_name": "Lunar New Year 2018",
+    "set": "plny"
+  },
+  {
+    "set_name": "Alchemy: Phyrexia",
+    "set": "yone"
+  },
+  {
+    "set_name": "Alchemy: Ixalan",
+    "set": "ylci"
+  },
+  {
+    "set_name": "Eighth Edition",
+    "set": "8ed"
+  },
+  {
+    "set_name": "Commander 2011 Oversized",
+    "set": "ocmd"
+  },
+  {
+    "set_name": "Invasion Promos",
+    "set": "pinv"
+  },
+  {
+    "set_name": "New Phyrexia",
+    "set": "nph"
+  },
+  {
+    "set_name": "From the Vault: Transform",
+    "set": "v17"
+  },
+  {
+    "set_name": "Eventide",
+    "set": "eve"
+  },
+  {
+    "set_name": "Commander 2014",
+    "set": "c14"
+  },
+  {
+    "set_name": "Zendikar",
+    "set": "zen"
+  },
+  {
+    "set_name": "Commander 2011",
+    "set": "cmd"
+  },
+  {
+    "set_name": "Worldwake",
+    "set": "wwk"
+  },
+  {
+    "set_name": "The Dark",
+    "set": "drk"
+  },
+  {
+    "set_name": "Signature Spellbook: Chandra",
+    "set": "ss3"
+  },
+  {
+    "set_name": "Born of the Gods Hero's Path",
+    "set": "thp2"
+  },
+  {
+    "set_name": "Kaladesh Inventions",
+    "set": "mps"
+  },
+  {
+    "set_name": "BFZ Standard Series",
+    "set": "pss1"
+  },
+  {
+    "set_name": "Theros Hero's Path",
+    "set": "thp1"
+  },
+  {
+    "set_name": "Modern Horizons 3 Substitute Cards",
+    "set": "smh3"
+  },
+  {
+    "set_name": "Judge Gift Cards 2009",
+    "set": "g09"
+  },
+  {
+    "set_name": "Alchemy: Innistrad",
+    "set": "ymid"
+  },
+  {
+    "set_name": "Rise of the Eldrazi Tokens",
+    "set": "troe"
+  },
+  {
+    "set_name": "Planar Chaos",
+    "set": "plc"
+  },
+  {
+    "set_name": "Zendikar Expeditions",
+    "set": "exp"
+  },
+  {
+    "set_name": "Battle for Zendikar Tokens",
+    "set": "tbfz"
+  },
+  {
+    "set_name": "San Diego Comic-Con 2017",
+    "set": "ps17"
+  },
+  {
+    "set_name": "DCI Promos",
+    "set": "dci"
+  },
+  {
+    "set_name": "Unstable Tokens",
+    "set": "tust"
+  },
+  {
+    "set_name": "Guilds of Ravnica",
+    "set": "grn"
+  },
+  {
+    "set_name": "Love Your LGS 2021",
+    "set": "plg21"
+  },
+  {
+    "set_name": "Ravnica Remastered",
+    "set": "rvr"
+  },
+  {
+    "set_name": "Doctor Who Tokens",
+    "set": "twho"
+  },
+  {
+    "set_name": "Oversized 90's Promos",
+    "set": "o90p"
+  },
+  {
+    "set_name": "Crimson Vow Art Series",
+    "set": "avow"
+  },
+  {
+    "set_name": "League Tokens 2013",
+    "set": "l13"
+  },
+  {
+    "set_name": "Lorwyn Promos",
+    "set": "plrw"
+  },
+  {
+    "set_name": "Duskmourn: House of Horror Promos",
+    "set": "pdsk"
+  },
+  {
+    "set_name": "Unsanctioned Tokens",
+    "set": "tund"
+  },
+  {
+    "set_name": "Unhinged",
+    "set": "unh"
+  },
+  {
+    "set_name": "Forgotten Realms Commander Tokens",
+    "set": "tafc"
+  },
+  {
+    "set_name": "The Brothers' War Commander",
+    "set": "brc"
+  },
+  {
+    "set_name": "Hachette UK",
+    "set": "phuk"
+  },
+  {
+    "set_name": "Commander Legends: Battle for Baldur's Gate Minigames",
+    "set": "mclb"
+  },
+  {
+    "set_name": "Antiquities",
+    "set": "atq"
+  },
+  {
+    "set_name": "Hour of Devastation",
+    "set": "hou"
+  },
+  {
+    "set_name": "Duel Decks Anthology: Jace vs. Chandra Tokens",
+    "set": "tjvc"
+  },
+  {
+    "set_name": "New Capenna Commander Promos",
+    "set": "pncc"
+  },
+  {
+    "set_name": "Fate Reforged Tokens",
+    "set": "tfrf"
+  },
+  {
+    "set_name": "From the Vault: Angels",
+    "set": "v15"
+  },
+  {
+    "set_name": "Duel Decks: Divine vs. Demonic",
+    "set": "ddc"
+  },
+  {
+    "set_name": "Dragons of Tarkir Promos",
+    "set": "pdtk"
+  },
+  {
+    "set_name": "Tarkir: Dragonstorm Tokens",
+    "set": "ttdm"
+  },
+  {
+    "set_name": "Mirrodin Promos",
+    "set": "pmrd"
+  },
+  {
+    "set_name": "Duel Decks: Sorin vs. Tibalt",
+    "set": "ddk"
+  },
+  {
+    "set_name": "Scars of Mirrodin Tokens",
+    "set": "tsom"
+  },
+  {
+    "set_name": "Magic 2013 Promos",
+    "set": "pm13"
+  },
+  {
+    "set_name": "Ugin's Fate",
+    "set": "ugin"
+  },
+  {
+    "set_name": "Duel Decks: Izzet vs. Golgari Tokens",
+    "set": "tddj"
+  },
+  {
+    "set_name": "The Lost Caverns of Ixalan",
+    "set": "lci"
+  },
+  {
+    "set_name": "Aether Revolt Promos",
+    "set": "paer"
+  },
+  {
+    "set_name": "RNA Ravnica Weekend",
+    "set": "prw2"
+  },
+  {
+    "set_name": "Modern Horizons 3 Commander",
+    "set": "m3c"
+  },
+  {
+    "set_name": "War of the Spark",
+    "set": "war"
+  },
+  {
+    "set_name": "XLN Treasure Chest",
+    "set": "pxtc"
+  },
+  {
+    "set_name": "Bloomburrow Commander Tokens",
+    "set": "tblc"
+  },
+  {
+    "set_name": "Fallout",
+    "set": "pip"
+  },
+  {
+    "set_name": "Tales of Middle-earth Commander",
+    "set": "ltc"
+  },
+  {
+    "set_name": "Zendikar Rising Tokens",
+    "set": "tznr"
+  },
+  {
+    "set_name": "Commander 2017 Tokens",
+    "set": "tc17"
+  },
+  {
+    "set_name": "Marvel's Spider-Man Promos",
+    "set": "pspm"
+  },
+  {
+    "set_name": "Dissension Promos",
+    "set": "pdis"
+  },
+  {
+    "set_name": "Strixhaven: School of Mages",
+    "set": "stx"
+  },
+  {
+    "set_name": "Jumpstart Front Cards",
+    "set": "fjmp"
+  },
+  {
+    "set_name": "Coldsnap Promos",
+    "set": "pcsp"
+  },
+  {
+    "set_name": "Alchemy: Tarkir",
+    "set": "ytdm"
+  },
+  {
+    "set_name": "San Diego Comic-Con 2016",
+    "set": "ps16"
+  },
+  {
+    "set_name": "Commander Legends",
+    "set": "cmr"
+  },
+  {
+    "set_name": "Game Night: Free-for-All",
+    "set": "gn3"
+  },
+  {
+    "set_name": "Planeshift",
+    "set": "pls"
+  },
+  {
+    "set_name": "30th Anniversary Play Promos",
+    "set": "p30a"
+  },
+  {
+    "set_name": "Friday Night Magic 2002",
+    "set": "f02"
+  },
+  {
+    "set_name": "Darksteel",
+    "set": "dst"
+  },
+  {
+    "set_name": "FIN Standard Showdown",
+    "set": "pss5"
+  },
+  {
+    "set_name": "Kaladesh Remastered",
+    "set": "klr"
+  },
+  {
+    "set_name": "Transformers",
+    "set": "bot"
+  },
+  {
+    "set_name": "Phyrexia: All Will Be One Minigames",
+    "set": "mone"
+  },
+  {
+    "set_name": "Wilds of Eldraine Promos",
+    "set": "pwoe"
+  },
+  {
+    "set_name": "Bloomburrow Commander",
+    "set": "blc"
+  },
+  {
+    "set_name": "Future Sight",
+    "set": "fut"
+  },
+  {
+    "set_name": "Commander 2018 Tokens",
+    "set": "tc18"
+  },
+  {
+    "set_name": "Modern Masters 2015",
+    "set": "mm2"
+  },
+  {
+    "set_name": "Legends",
+    "set": "leg"
+  },
+  {
+    "set_name": "From the Vault: Twenty",
+    "set": "v13"
+  },
+  {
+    "set_name": "Betrayers of Kamigawa",
+    "set": "bok"
+  },
+  {
+    "set_name": "Zendikar Rising Art Series",
+    "set": "aznr"
+  },
+  {
+    "set_name": "Marvel's Spider-Man",
+    "set": "spm"
+  },
+  {
+    "set_name": "Time Spiral Timeshifted",
+    "set": "tsb"
+  },
+  {
+    "set_name": "Murders at Karlov Manor",
+    "set": "mkm"
+  },
+  {
+    "set_name": "Mercadian Masques Promos",
+    "set": "pmmq"
+  },
+  {
+    "set_name": "Ravnica Remastered Tokens",
+    "set": "trvr"
+  },
+  {
+    "set_name": "Junior APAC Series",
+    "set": "pjas"
+  },
+  {
+    "set_name": "Edge of Eternities Art Series",
+    "set": "aeoe"
+  },
+  {
+    "set_name": "Tarkir Dragonfury",
+    "set": "ptkdf"
+  },
+  {
+    "set_name": "Magic Premiere Shop 2011",
+    "set": "pmps11"
+  },
+  {
+    "set_name": "Commander Anthology Volume II",
+    "set": "cm2"
+  },
+  {
+    "set_name": "Planechase 2012 Planes",
+    "set": "opc2"
+  },
+  {
+    "set_name": "Duel Decks: Nissa vs. Ob Nixilis",
+    "set": "ddr"
+  },
+  {
+    "set_name": "ONE Japanese Promo Tokens",
+    "set": "wone"
+  },
+  {
+    "set_name": "Introductory Two-Player Set",
+    "set": "itp"
+  },
+  {
+    "set_name": "Dark Ascension",
+    "set": "dka"
+  },
+  {
+    "set_name": "Cowboy Bebop",
+    "set": "pcbb"
+  },
+  {
+    "set_name": "Conspiracy Tokens",
+    "set": "tcns"
+  },
+  {
+    "set_name": "Secret Lair Drop",
+    "set": "sld"
+  },
+  {
+    "set_name": "Game Night",
+    "set": "gnt"
+  },
+  {
+    "set_name": "Judge Gift Cards 2001",
+    "set": "g01"
+  },
+  {
+    "set_name": "Magic Player Rewards 2001",
+    "set": "mpr"
+  },
+  {
+    "set_name": "Conspiracy: Take the Crown Tokens",
+    "set": "tcn2"
+  },
+  {
+    "set_name": "Adventures in the Forgotten Realms",
+    "set": "afr"
+  },
+  {
+    "set_name": "Unsanctioned",
+    "set": "und"
+  },
+  {
+    "set_name": "Salvat 2005",
+    "set": "psal"
+  },
+  {
+    "set_name": "Magic Player Rewards 2011",
+    "set": "p11"
+  },
+  {
+    "set_name": "War of the Spark Tokens",
+    "set": "twar"
+  },
+  {
+    "set_name": "Duel Decks: Jace vs. Chandra Tokens",
+    "set": "tdd2"
+  },
+  {
+    "set_name": "Judge Gift Cards 2005",
+    "set": "g05"
+  },
+  {
+    "set_name": "Commander Masters",
+    "set": "cmm"
+  },
+  {
+    "set_name": "World Championship Decks 2002",
+    "set": "wc02"
+  },
+  {
+    "set_name": "Midnight Hunt Commander Tokens",
+    "set": "tmic"
+  },
+  {
+    "set_name": "Final Fantasy Promos",
+    "set": "pfin"
+  },
+  {
+    "set_name": "Assassin's Creed Minigames",
+    "set": "macr"
+  },
+  {
+    "set_name": "Strixhaven: School of Mages Tokens",
+    "set": "tstx"
+  },
+  {
+    "set_name": "Innistrad Promos",
+    "set": "pisd"
+  },
+  {
+    "set_name": "Ikoria: Lair of Behemoths Tokens",
+    "set": "tiko"
+  },
+  {
+    "set_name": "League Tokens 2015",
+    "set": "l15"
+  },
+  {
+    "set_name": "Duel Decks Anthology: Jace vs. Chandra",
+    "set": "jvc"
+  },
+  {
+    "set_name": "Magic 2010 Promos",
+    "set": "pm10"
+  },
+  {
+    "set_name": "Judge Gift Cards 2016",
+    "set": "j16"
+  },
+  {
+    "set_name": "March of the Machine Tokens",
+    "set": "tmom"
+  },
+  {
+    "set_name": "Strixhaven: School of Mages Substitute Cards",
+    "set": "sstx"
+  },
+  {
+    "set_name": "Commander 2014 Tokens",
+    "set": "tc14"
+  },
+  {
+    "set_name": "The Lord of the Rings: Tales of Middle-earth",
+    "set": "ltr"
+  },
+  {
+    "set_name": "Alchemy: Kamigawa",
+    "set": "yneo"
+  },
+  {
+    "set_name": "The Brothers' War Promos",
+    "set": "pbro"
+  },
+  {
+    "set_name": "Kaldheim Substitute Cards",
+    "set": "skhm"
+  },
+  {
+    "set_name": "Planechase",
+    "set": "hop"
+  },
+  {
+    "set_name": "Legions Promos",
+    "set": "plgn"
+  },
+  {
+    "set_name": "Friday Night Magic 2008",
+    "set": "f08"
+  },
+  {
+    "set_name": "From the Vault: Dragons",
+    "set": "drb"
+  },
+  {
+    "set_name": "Urza's Destiny Promos",
+    "set": "puds"
+  },
+  {
+    "set_name": "Dominaria Remastered Tokens",
+    "set": "tdmr"
+  },
+  {
+    "set_name": "Nemesis",
+    "set": "nem"
+  },
+  {
+    "set_name": "Planechase Anthology",
+    "set": "pca"
+  },
+  {
+    "set_name": "Shadows of the Past",
+    "set": "sis"
+  },
+  {
+    "set_name": "Magic 2010",
+    "set": "m10"
+  },
+  {
+    "set_name": "Magic 2013 Tokens",
+    "set": "tm13"
+  },
+  {
+    "set_name": "Duel Decks: Ajani vs. Nicol Bolas",
+    "set": "ddh"
+  },
+  {
+    "set_name": "Duel Decks: Zendikar vs. Eldrazi",
+    "set": "ddp"
+  },
+  {
+    "set_name": "Duels of the Planeswalkers 2013 Promos",
+    "set": "pdp13"
+  },
+  {
+    "set_name": "Kamigawa: Neon Dynasty Substitute Cards",
+    "set": "sneo"
+  },
+  {
+    "set_name": "Stronghold Promos",
+    "set": "psth"
+  },
+  {
+    "set_name": "Dominaria United Tokens",
+    "set": "tdmu"
+  },
+  {
+    "set_name": "Kamigawa: Neon Dynasty Promos",
+    "set": "pneo"
+  },
+  {
+    "set_name": "Duel Decks: Mirrodin Pure vs. New Phyrexia",
+    "set": "td2"
+  },
+  {
+    "set_name": "War of the Spark Promos",
+    "set": "pwar"
+  },
+  {
+    "set_name": "Wizards Play Network 2025",
+    "set": "pw25"
+  },
+  {
+    "set_name": "Duskmourn: House of Horror Art Series",
+    "set": "adsk"
+  },
+  {
+    "set_name": "World Championship Decks 2001",
+    "set": "wc01"
+  },
+  {
+    "set_name": "Duels of the Planeswalkers 2015 Promos",
+    "set": "pdp15"
+  },
+  {
+    "set_name": "San Diego Comic-Con 2018",
+    "set": "ps18"
+  },
+  {
+    "set_name": "Modern Horizons 2 Art Series",
+    "set": "amh2"
+  },
+  {
+    "set_name": "Year of the Dragon 2024",
+    "set": "pl24"
+  },
+  {
+    "set_name": "DCI Legend Membership",
+    "set": "plgm"
+  },
+  {
+    "set_name": "Aether Revolt Tokens",
+    "set": "taer"
+  },
+  {
+    "set_name": "Grand Prix Promos",
+    "set": "pgpx"
+  },
+  {
+    "set_name": "Dominaria United Commander Tokens",
+    "set": "tdmc"
+  },
+  {
+    "set_name": "Core Set 2021 Promos",
+    "set": "pm21"
+  },
+  {
+    "set_name": "Phyrexia: All Will Be One",
+    "set": "one"
+  },
+  {
+    "set_name": "MagicFest 2019",
+    "set": "pf19"
+  },
+  {
+    "set_name": "The Brothers' War Commander Tokens",
+    "set": "tbrc"
+  },
+  {
+    "set_name": "Adventures in the Forgotten Realms Tokens",
+    "set": "tafr"
+  },
+  {
+    "set_name": "March of the Machine",
+    "set": "mom"
+  },
+  {
+    "set_name": "New Phyrexia Tokens",
+    "set": "tnph"
+  },
+  {
+    "set_name": "Avatar: The Last Airbender",
+    "set": "tla"
+  },
+  {
+    "set_name": "Judge Gift Cards 2023",
+    "set": "p23"
+  },
+  {
+    "set_name": "Oath of the Gatewatch Promos",
+    "set": "pogw"
+  },
+  {
+    "set_name": "M19 Standard Showdown",
+    "set": "pss3"
+  },
+  {
+    "set_name": "Visions",
+    "set": "vis"
+  },
+  {
+    "set_name": "Premium Deck Series: Slivers",
+    "set": "h09"
+  },
+  {
+    "set_name": "Magic Player Rewards 2007",
+    "set": "p07"
+  },
+  {
+    "set_name": "Journey into Nyx Hero's Path",
+    "set": "thp3"
+  },
+  {
+    "set_name": "Arena League 2001",
+    "set": "pal01"
+  },
+  {
+    "set_name": "Ikoria: Lair of Behemoths Promos",
+    "set": "piko"
+  },
+  {
+    "set_name": "The Lost Caverns of Ixalan Commander",
+    "set": "lcc"
+  },
+  {
+    "set_name": "Dark Ascension Promos",
+    "set": "pdka"
+  },
+  {
+    "set_name": "Duel Decks: Knights vs. Dragons",
+    "set": "ddg"
+  },
+  {
+    "set_name": "Khans of Tarkir",
+    "set": "ktk"
+  },
+  {
+    "set_name": "Ninth Edition Promos",
+    "set": "p9ed"
+  },
+  {
+    "set_name": "Game Night 2019",
+    "set": "gn2"
+  },
+  {
+    "set_name": "Duskmourn: House of Horror Tokens",
+    "set": "tdsk"
+  },
+  {
+    "set_name": "Judge Gift Cards 2013",
+    "set": "j13"
+  },
+  {
+    "set_name": "Modern Horizons 3 Tokens",
+    "set": "tmh3"
+  },
+  {
+    "set_name": "Premium Deck Series: Fire and Lightning",
+    "set": "pd2"
+  },
+  {
+    "set_name": "Historic Anthology 5",
+    "set": "ha5"
+  },
+  {
+    "set_name": "Commander Collection: Green",
+    "set": "cc1"
+  },
+  {
+    "set_name": "World Championship Decks 1997",
+    "set": "wc97"
+  },
+  {
+    "set_name": "Judge Gift Cards 2021",
+    "set": "pj21"
+  },
+  {
+    "set_name": "Outlaws of Thunder Junction Commander Tokens",
+    "set": "totc"
+  },
+  {
+    "set_name": "Iconic Masters",
+    "set": "ima"
+  },
+  {
+    "set_name": "Return to Ravnica Promos",
+    "set": "prtr"
+  },
+  {
+    "set_name": "Planechase Anthology Tokens",
+    "set": "tpca"
+  },
+  {
+    "set_name": "Historic Anthology 6",
+    "set": "ha6"
+  },
+  {
+    "set_name": "MKM Japanese Promo Tokens",
+    "set": "wmkm"
+  },
+  {
+    "set_name": "League Tokens 2014",
+    "set": "l14"
+  },
+  {
+    "set_name": "Arena League 2005",
+    "set": "pal05"
+  },
+  {
+    "set_name": "Zendikar Rising Expeditions",
+    "set": "zne"
+  },
+  {
+    "set_name": "Amonkhet Promos",
+    "set": "pakh"
+  },
+  {
+    "set_name": "Duel Decks: Sorin vs. Tibalt Tokens",
+    "set": "tddk"
+  },
+  {
+    "set_name": "Mirage",
+    "set": "mir"
+  },
+  {
+    "set_name": "Shadowmoor Tokens",
+    "set": "tshm"
+  },
+  {
+    "set_name": "Doctor Who",
+    "set": "who"
+  },
+  {
+    "set_name": "Rivals of Ixalan Tokens",
+    "set": "trix"
+  },
+  {
+    "set_name": "Mystery Booster Playtest Cards 2019",
+    "set": "cmb1"
+  },
+  {
+    "set_name": "Commander Anthology",
+    "set": "cma"
+  },
+  {
+    "set_name": "URL/Convention Promos",
+    "set": "purl"
+  },
+  {
+    "set_name": "Commander 2014 Oversized",
+    "set": "oc14"
+  },
+  {
+    "set_name": "Aetherdrift Tokens",
+    "set": "tdft"
+  },
+  {
+    "set_name": "Judge Gift Cards 2020",
+    "set": "j20"
+  },
+  {
+    "set_name": "Ravnica Allegiance",
+    "set": "rna"
+  },
+  {
+    "set_name": "Avacyn Restored Promos",
+    "set": "pavr"
+  },
+  {
+    "set_name": "Alchemy Horizons: Baldur's Gate",
+    "set": "hbg"
+  },
+  {
+    "set_name": "Alchemy: The Brothers' War",
+    "set": "ybro"
+  },
+  {
+    "set_name": "From the Vault: Realms",
+    "set": "v12"
+  },
+  {
+    "set_name": "Unfinity",
+    "set": "unf"
+  },
+  {
+    "set_name": "Dominaria United Art Series",
+    "set": "admu"
+  },
+  {
+    "set_name": "Betrayers of Kamigawa Promos",
+    "set": "pbok"
+  },
+  {
+    "set_name": "Guilds of Ravnica Tokens",
+    "set": "tgrn"
+  },
+  {
+    "set_name": "Bloomburrow Promos",
+    "set": "pblb"
+  },
+  {
+    "set_name": "Alchemy: Bloomburrow",
+    "set": "yblb"
+  },
+  {
+    "set_name": "World Championship Decks 2004",
+    "set": "wc04"
+  },
+  {
+    "set_name": "Magic Online Avatars",
+    "set": "pmoa"
+  },
+  {
+    "set_name": "Streets of New Capenna Promos",
+    "set": "psnc"
+  },
+  {
+    "set_name": "Ravnica Allegiance Tokens",
+    "set": "trna"
+  },
+  {
+    "set_name": "Zendikar Rising Commander Tokens",
+    "set": "tznc"
+  },
+  {
+    "set_name": "Battle Royale Box Set",
+    "set": "brb"
+  },
+  {
+    "set_name": "Magic 2011 Promos",
+    "set": "pm11"
+  },
+  {
+    "set_name": "Hobby Japan Promos",
+    "set": "jp1"
+  },
+  {
+    "set_name": "Commander 2021 Display Commanders",
+    "set": "oc21"
+  },
+  {
+    "set_name": "Legions",
+    "set": "lgn"
+  },
+  {
+    "set_name": "Time Spiral Remastered Promos",
+    "set": "ptsr"
+  },
+  {
+    "set_name": "Amonkhet",
+    "set": "akh"
+  },
+  {
+    "set_name": "Exodus",
+    "set": "exo"
+  },
+  {
+    "set_name": "2017 Heroes of the Realm",
+    "set": "ph17"
+  },
+  {
+    "set_name": "Ultimate Masters Tokens",
+    "set": "tuma"
+  },
+  {
+    "set_name": "Treasure Chest",
+    "set": "pz2"
+  },
+  {
+    "set_name": "Crimson Vow Commander",
+    "set": "voc"
+  },
+  {
+    "set_name": "Darksteel Promos",
+    "set": "pdst"
+  },
+  {
+    "set_name": "DMU Japanese Promo Tokens",
+    "set": "wdmu"
+  },
+  {
+    "set_name": "Innistrad Tokens",
+    "set": "tisd"
+  },
+  {
+    "set_name": "Historic Anthology 7",
+    "set": "ha7"
+  },
+  {
+    "set_name": "Future Sight Promos",
+    "set": "pfut"
+  },
+  {
+    "set_name": "Final Fantasy Commander Tokens",
+    "set": "tfic"
+  },
+  {
+    "set_name": "Wizards Play Network 2021",
+    "set": "pw21"
+  },
+  {
+    "set_name": "HarperPrism Book Promos",
+    "set": "phpr"
+  },
+  {
+    "set_name": "30th Anniversary Celebration Tokyo",
+    "set": "p30t"
+  },
+  {
+    "set_name": "Arabian Nights",
+    "set": "arn"
+  },
+  {
+    "set_name": "Foundations Tokens",
+    "set": "tfdn"
+  },
+  {
+    "set_name": "Invasion",
+    "set": "inv"
+  },
+  {
+    "set_name": "Game Night: Free-for-All Tokens",
+    "set": "tgn3"
+  },
+  {
+    "set_name": "Masters Edition III",
+    "set": "me3"
+  },
+  {
+    "set_name": "Mythic Edition",
+    "set": "med"
+  },
+  {
+    "set_name": "Secret Lair 30th Anniversary Countdown Kit",
+    "set": "slc"
+  },
+  {
+    "set_name": "Friday Night Magic 2010",
+    "set": "f10"
+  },
+  {
+    "set_name": "Tales of Middle-earth Scene Box",
+    "set": "altc"
+  },
+  {
+    "set_name": "Onslaught",
+    "set": "ons"
+  },
+  {
+    "set_name": "Tales of Middle-earth Promos",
+    "set": "pltr"
+  },
+  {
+    "set_name": "Zendikar Rising Substitute Cards",
+    "set": "sznr"
+  },
+  {
+    "set_name": "Magic Player Rewards 2010",
+    "set": "p10"
+  },
+  {
+    "set_name": "Kaldheim Tokens",
+    "set": "tkhm"
+  },
+  {
+    "set_name": "The Big Score Tokens",
+    "set": "tbig"
+  },
+  {
+    "set_name": "Murders at Karlov Manor Art Series",
+    "set": "amkm"
+  },
+  {
+    "set_name": "Beatdown Box Set",
+    "set": "btd"
+  },
+  {
+    "set_name": "Shards of Alara Promos",
+    "set": "pala"
+  },
+  {
+    "set_name": "GRN Guild Kit",
+    "set": "gk1"
+  },
+  {
+    "set_name": "Forgotten Realms Commander",
+    "set": "afc"
+  },
+  {
+    "set_name": "Double Masters Tokens",
+    "set": "t2xm"
+  },
+  {
+    "set_name": "Friday Night Magic 2014",
+    "set": "f14"
+  },
+  {
+    "set_name": "Streets of New Capenna Tokens",
+    "set": "tsnc"
+  },
+  {
+    "set_name": "Phyrexia: All Will Be One Commander Tokens",
+    "set": "tonc"
+  },
+  {
+    "set_name": "Innistrad: Crimson Vow Minigames",
+    "set": "mvow"
+  },
+  {
+    "set_name": "Final Fantasy",
+    "set": "fin"
+  },
+  {
+    "set_name": "Tempest Remastered",
+    "set": "tpr"
+  },
+  {
+    "set_name": "Commander Collection: Black",
+    "set": "cc2"
+  },
+  {
+    "set_name": "Commander Legends: Battle for Baldur's Gate",
+    "set": "clb"
+  },
+  {
+    "set_name": "Nationals Promos",
+    "set": "pnat"
+  },
+  {
+    "set_name": "Year of the Tiger 2022",
+    "set": "pl22"
+  },
+  {
+    "set_name": "Duels of the Planeswalkers 2014 Promos",
+    "set": "pdp14"
+  },
+  {
+    "set_name": "Starter 1999",
+    "set": "s99"
+  },
+  {
+    "set_name": "Final Fantasy: Through the Ages",
+    "set": "fca"
+  },
+  {
+    "set_name": "Multiverse Legends",
+    "set": "mul"
+  },
+  {
+    "set_name": "Theros Tokens",
+    "set": "tths"
+  },
+  {
+    "set_name": "The List",
+    "set": "plst"
+  },
+  {
+    "set_name": "Duel Decks: Mind vs. Might",
+    "set": "dds"
+  },
+  {
+    "set_name": "Judge Gift Cards 2019",
+    "set": "j19"
+  },
+  {
+    "set_name": "Arena League 1996",
+    "set": "parl"
+  },
+  {
+    "set_name": "Modern Horizons 3 Art Series",
+    "set": "amh3"
+  },
+  {
+    "set_name": "Double Masters 2022 Tokens",
+    "set": "t2x2"
+  },
+  {
+    "set_name": "Planar Chaos Promos",
+    "set": "pplc"
+  },
+  {
+    "set_name": "March of the Machine: The Aftermath Promos",
+    "set": "pmat"
+  },
+  {
+    "set_name": "Judge Gift Cards 2007",
+    "set": "g07"
+  },
+  {
+    "set_name": "Seventh Edition",
+    "set": "7ed"
+  },
+  {
+    "set_name": "Commander 2019 Tokens",
+    "set": "tc19"
+  },
+  {
+    "set_name": "Alchemy: Duskmourn",
+    "set": "ydsk"
+  },
+  {
+    "set_name": "Commander 2020 Oversized",
+    "set": "oc20"
+  },
+  {
+    "set_name": "Hour of Devastation Tokens",
+    "set": "thou"
+  },
+  {
+    "set_name": "Morningtide Promos",
+    "set": "pmor"
+  },
+  {
+    "set_name": "Unstable",
+    "set": "ust"
+  },
+  {
+    "set_name": "Global Series Jiang Yanggu & Mu Yanling",
+    "set": "gs1"
+  },
+  {
+    "set_name": "MTG Arena Promos",
+    "set": "pana"
+  },
+  {
+    "set_name": "The Brothers' War Minigames",
+    "set": "mbro"
+  },
+  {
+    "set_name": "Masters Edition II",
+    "set": "me2"
+  },
+  {
+    "set_name": "From the Vault: Annihilation",
+    "set": "v14"
+  },
+  {
+    "set_name": "Journey into Nyx Promos",
+    "set": "pjou"
+  },
+  {
+    "set_name": "Duel Decks: Garruk vs. Liliana",
+    "set": "ddd"
+  },
+  {
+    "set_name": "Aetherdrift",
+    "set": "dft"
+  },
+  {
+    "set_name": "Guru",
+    "set": "pgru"
+  },
+  {
+    "set_name": "From the Vault: Relics",
+    "set": "v10"
+  },
+  {
+    "set_name": "Tales of Middle-earth Tokens",
+    "set": "tltr"
+  },
+  {
+    "set_name": "Duel Decks: Divine vs. Demonic Tokens",
+    "set": "tddc"
+  },
+  {
+    "set_name": "Adventures in the Forgotten Realms Promos",
+    "set": "pafr"
+  },
+  {
+    "set_name": "Core Set 2021 Tokens",
+    "set": "tm21"
+  },
+  {
+    "set_name": "Wilds of Eldraine: Enchanting Tales",
+    "set": "wot"
+  },
+  {
+    "set_name": "The Lost Caverns of Ixalan Substitute Cards",
+    "set": "slci"
+  },
+  {
+    "set_name": "San Diego Comic-Con 2013",
+    "set": "psdc"
+  },
+  {
+    "set_name": "Hour of Devastation Promos",
+    "set": "phou"
+  },
+  {
+    "set_name": "Theros Beyond Death Promos",
+    "set": "pthb"
+  },
+  {
+    "set_name": "Conflux Tokens",
+    "set": "tcon"
+  },
+  {
+    "set_name": "Commander 2016",
+    "set": "c16"
+  },
+  {
+    "set_name": "Zendikar Rising Commander",
+    "set": "znc"
+  },
+  {
+    "set_name": "Ponies: The Galloping",
+    "set": "ptg"
+  },
+  {
+    "set_name": "Dominaria Tokens",
+    "set": "tdom"
+  },
+  {
+    "set_name": "Urza's Legacy Promos",
+    "set": "pulg"
+  },
+  {
+    "set_name": "League Tokens 2016",
+    "set": "l16"
+  },
+  {
+    "set_name": "Judge Gift Cards 2004",
+    "set": "g04"
+  },
+  {
+    "set_name": "World Championship Decks 1998",
+    "set": "wc98"
+  },
+  {
+    "set_name": "Dragon Con",
+    "set": "pdrc"
+  },
+  {
+    "set_name": "Fourth Edition Foreign Black Border",
+    "set": "4bb"
+  },
+  {
+    "set_name": "Japan Standard Cup",
+    "set": "pjsc"
+  },
+  {
+    "set_name": "Explorer Anthology 2",
+    "set": "ea2"
+  },
+  {
+    "set_name": "Final Fantasy Art Series",
+    "set": "afin"
+  },
+  {
+    "set_name": "Kaladesh Tokens",
+    "set": "tkld"
+  },
+  {
+    "set_name": "Dragons of Tarkir",
+    "set": "dtk"
+  },
+  {
+    "set_name": "Masters 25",
+    "set": "a25"
+  },
+  {
+    "set_name": "HasCon 2017",
+    "set": "h17"
+  },
+  {
+    "set_name": "Dominaria United Minigames",
+    "set": "mdmu"
+  },
+  {
+    "set_name": "Shards of Alara Tokens",
+    "set": "tala"
+  },
+  {
+    "set_name": "Magic 2015 Tokens",
+    "set": "tm15"
+  },
+  {
+    "set_name": "Double Masters",
+    "set": "2xm"
+  },
+  {
+    "set_name": "The Brothers' War Southeast Asia Tokens",
+    "set": "ptbro"
+  },
+  {
+    "set_name": "Duskmourn: House of Horror",
+    "set": "dsk"
+  },
+  {
+    "set_name": "Unknown Event",
+    "set": "unk"
+  },
+  {
+    "set_name": "Bloomburrow Tokens",
+    "set": "tblb"
+  },
+  {
+    "set_name": "Kaladesh",
+    "set": "kld"
+  },
+  {
+    "set_name": "Modern Horizons 3 Promos",
+    "set": "pmh3"
+  },
+  {
+    "set_name": "Onslaught Promos",
+    "set": "pons"
+  },
+  {
+    "set_name": "Duel Decks: Jace vs. Chandra",
+    "set": "dd2"
+  },
+  {
+    "set_name": "Fate Reforged",
+    "set": "frf"
+  },
+  {
+    "set_name": "Exodus Promos",
+    "set": "pexo"
+  },
+  {
+    "set_name": "Bloomburrow",
+    "set": "blb"
+  },
+  {
+    "set_name": "Media and Collaboration Promos",
+    "set": "pmei"
+  },
+  {
+    "set_name": "RNA Guild Kit Tokens",
+    "set": "tgk2"
+  },
+  {
+    "set_name": "Innistrad: Crimson Vow Substitute Cards",
+    "set": "svow"
+  },
+  {
+    "set_name": "Unfinity Tokens",
+    "set": "tunf"
+  },
+  {
+    "set_name": "Ixalan Promos",
+    "set": "pxln"
+  },
+  {
+    "set_name": "30th Anniversary History Promos",
+    "set": "p30h"
+  },
+  {
+    "set_name": "Secret Lair Showdown",
+    "set": "slp"
+  },
+  {
+    "set_name": "Unstable Promos",
+    "set": "pust"
+  },
+  {
+    "set_name": "Jurassic World Collection",
+    "set": "rex"
+  },
+  {
+    "set_name": "Battle for Zendikar Promos",
+    "set": "pbfz"
+  },
+  {
+    "set_name": "MOM Japanese Promo Tokens",
+    "set": "wmom"
+  },
+  {
+    "set_name": "Battlebond Promos",
+    "set": "pbbd"
+  },
+  {
+    "set_name": "Final Fantasy Regional Promos",
+    "set": "rfin"
+  },
+  {
+    "set_name": "Archenemy",
+    "set": "arc"
+  },
+  {
+    "set_name": "The Lost Caverns of Ixalan Promos",
+    "set": "plci"
+  },
+  {
+    "set_name": "Judge Gift Cards 2011",
+    "set": "g11"
+  },
+  {
+    "set_name": "Murders at Karlov Manor Promos",
+    "set": "pmkm"
+  },
+  {
+    "set_name": "Core Set 2020 Promos",
+    "set": "pm20"
+  },
+  {
+    "set_name": "Pioneer Anthology 1",
+    "set": "pa1"
+  },
+  {
+    "set_name": "Special Guests",
+    "set": "spg"
+  },
+  {
+    "set_name": "Battle for Baldur's Gate Tokens",
+    "set": "tclb"
+  },
+  {
+    "set_name": "Streets of New Capenna",
+    "set": "snc"
+  },
+  {
+    "set_name": "Dragon's Maze",
+    "set": "dgm"
+  },
+  {
+    "set_name": "Friday Night Magic 2007",
+    "set": "f07"
+  },
+  {
+    "set_name": "Two-Headed Giant Tournament",
+    "set": "p2hg"
+  },
+  {
+    "set_name": "Kamigawa: Neon Dynasty Tokens",
+    "set": "tneo"
+  },
+  {
+    "set_name": "Eighth Edition Promos",
+    "set": "p8ed"
+  },
+  {
+    "set_name": "Foundations Promos",
+    "set": "pfdn"
+  },
+  {
+    "set_name": "Jumpstart",
+    "set": "jmp"
+  },
+  {
+    "set_name": "Kaldheim Commander",
+    "set": "khc"
+  },
+  {
+    "set_name": "The Brothers' War Retro Artifacts",
+    "set": "brr"
+  },
+  {
+    "set_name": "Modern Horizons 1 Timeshifts",
+    "set": "h1r"
+  },
+  {
+    "set_name": "Strixhaven Art Series",
+    "set": "astx"
+  },
+  {
+    "set_name": "Judge Gift Cards 2018",
+    "set": "j18"
+  },
+  {
+    "set_name": "Marvel's Spider-Man Eternal",
+    "set": "spe"
+  },
+  {
+    "set_name": "Innistrad: Double Feature",
+    "set": "dbl"
+  },
+  {
+    "set_name": "Core Set 2019 Tokens",
+    "set": "tm19"
+  },
+  {
+    "set_name": "2019 Heroes of the Realm",
+    "set": "ph19"
+  },
+  {
+    "set_name": "Commander 2016 Oversized",
+    "set": "oc16"
+  },
+  {
+    "set_name": "Anthologies",
+    "set": "ath"
+  },
+  {
+    "set_name": "Duskmourn Commander Tokens",
+    "set": "tdsc"
+  },
+  {
+    "set_name": "WOE Japanese Promo Tokens",
+    "set": "wwoe"
+  },
+  {
+    "set_name": "Jumpstart 2022 Front Cards",
+    "set": "fj22"
+  },
+  {
+    "set_name": "Edge of Eternities Commander",
+    "set": "eoc"
+  },
+  {
+    "set_name": "Spotlight Series",
+    "set": "pspl"
+  },
+  {
+    "set_name": "Strixhaven Mystical Archive",
+    "set": "sta"
+  },
+  {
+    "set_name": "Friday Night Magic 2005",
+    "set": "f05"
+  },
+  {
+    "set_name": "Zendikar Rising Promos",
+    "set": "pznr"
+  },
+  {
+    "set_name": "Commander's Arsenal",
+    "set": "cm1"
+  },
+  {
+    "set_name": "M19 Gift Pack",
+    "set": "g18"
+  },
+  {
+    "set_name": "Collectors' Edition",
+    "set": "ced"
+  },
+  {
+    "set_name": "Planeshift Promos",
+    "set": "ppls"
+  },
+  {
+    "set_name": "Ravnica: Clue Edition",
+    "set": "clu"
+  },
+  {
+    "set_name": "Defeat a God",
+    "set": "tdag"
+  },
+  {
+    "set_name": "March of the Machine Jumpstart Front Cards",
+    "set": "fmom"
+  },
+  {
+    "set_name": "Wilds of Eldraine",
+    "set": "woe"
+  },
+  {
+    "set_name": "New Phyrexia Promos",
+    "set": "pnph"
+  },
+  {
+    "set_name": "Tarkir: Dragonstorm Commander",
+    "set": "tdc"
+  },
+  {
+    "set_name": "Shadows over Innistrad Tokens",
+    "set": "tsoi"
+  },
+  {
+    "set_name": "Tales of Middle-earth Commander Tokens",
+    "set": "tltc"
+  },
+  {
+    "set_name": "MagicFest 2024",
+    "set": "pf24"
+  },
+  {
+    "set_name": "March of the Machine: The Aftermath",
+    "set": "mat"
+  },
+  {
+    "set_name": "Phyrexia: All Will Be One Tokens",
+    "set": "tone"
+  },
+  {
+    "set_name": "The Lost Caverns of Ixalan Art Series",
+    "set": "alci"
+  },
+  {
+    "set_name": "Starter Commander Decks",
+    "set": "scd"
+  },
+  {
+    "set_name": "Tarkir: Dragonstorm Commander Tokens",
+    "set": "ttdc"
+  },
+  {
+    "set_name": "Wizards of the Coast Online Store",
+    "set": "pwos"
+  },
+  {
+    "set_name": "Outlaws of Thunder Junction Commander",
+    "set": "otc"
+  },
+  {
+    "set_name": "Conflux Promos",
+    "set": "pcon"
+  },
+  {
+    "set_name": "Archenemy Schemes",
+    "set": "oarc"
+  },
+  {
+    "set_name": "Alchemy: Dominaria",
+    "set": "ydmu"
+  },
+  {
+    "set_name": "Welcome Deck 2016",
+    "set": "w16"
+  },
+  {
+    "set_name": "Portal",
+    "set": "por"
+  },
+  {
+    "set_name": "Coldsnap Theme Decks",
+    "set": "cst"
+  },
+  {
+    "set_name": "Saviors of Kamigawa Promos",
+    "set": "psok"
+  },
+  {
+    "set_name": "Commander Masters Art Series",
+    "set": "acmm"
+  },
+  {
+    "set_name": "Ultimate Box Topper",
+    "set": "puma"
+  },
+  {
+    "set_name": "Outlaws of Thunder Junction Art Series",
+    "set": "aotj"
+  },
+  {
+    "set_name": "From the Vault: Legends",
+    "set": "v11"
+  },
+  {
+    "set_name": "World Championship Decks 1999",
+    "set": "wc99"
+  },
+  {
+    "set_name": "Amonkhet Remastered",
+    "set": "akr"
+  },
+  {
+    "set_name": "Junior Series Europe",
+    "set": "pjse"
+  },
+  {
+    "set_name": "Commander 2017",
+    "set": "c17"
+  },
+  {
+    "set_name": "Mythic Edition Tokens",
+    "set": "tmed"
+  },
+  {
+    "set_name": "30th Anniversary Misc Promos",
+    "set": "p30m"
+  },
+  {
+    "set_name": "Khans of Tarkir Promos",
+    "set": "pktk"
+  },
+  {
+    "set_name": "Signature Spellbook: Gideon",
+    "set": "ss2"
+  },
+  {
+    "set_name": "Conspiracy",
+    "set": "cns"
+  },
+  {
+    "set_name": "Magic Player Rewards 2009",
+    "set": "p09"
+  },
+  {
+    "set_name": "Double Masters 2022",
+    "set": "2x2"
+  },
+  {
+    "set_name": "Time Spiral Promos",
+    "set": "ptsp"
+  },
+  {
+    "set_name": "Modern Horizons 3",
+    "set": "mh3"
+  },
+  {
+    "set_name": "Eternal Weekend",
+    "set": "pewk"
+  },
+  {
+    "set_name": "Year of the Snake 2025",
+    "set": "pl25"
+  },
+  {
+    "set_name": "Multiverse Legends Tokens",
+    "set": "tmul"
+  },
+  {
+    "set_name": "Shadows over Innistrad Promos",
+    "set": "psoi"
+  },
+  {
+    "set_name": "Duel Decks: Garruk vs. Liliana Tokens",
+    "set": "tddd"
+  },
+  {
+    "set_name": "Portal: Three Kingdoms Promos",
+    "set": "pptk"
+  },
+  {
+    "set_name": "Archenemy: Nicol Bolas Tokens",
+    "set": "te01"
+  },
+  {
+    "set_name": "Commander Masters Tokens",
+    "set": "tcmm"
+  },
+  {
+    "set_name": "Magic Online Promos",
+    "set": "prm"
+  },
+  {
+    "set_name": "2021 Heroes of the Realm",
+    "set": "ph21"
+  },
+  {
+    "set_name": "Duels of the Planeswalkers",
+    "set": "dpa"
+  },
+  {
+    "set_name": "Commander 2019",
+    "set": "c19"
+  },
+  {
+    "set_name": "Eldritch Moon Promos",
+    "set": "pemn"
+  },
+  {
+    "set_name": "Aetherdrift Commander Tokens",
+    "set": "tdrc"
+  },
+  {
+    "set_name": "Shadowmoor Promos",
+    "set": "pshm"
+  },
+  {
+    "set_name": "Masters Edition",
+    "set": "me1"
+  },
+  {
+    "set_name": "Time Spiral Remastered",
+    "set": "tsr"
+  },
+  {
+    "set_name": "Modern Horizons 2 Tokens",
+    "set": "tmh2"
+  },
+  {
+    "set_name": "Friday Night Magic 2003",
+    "set": "f03"
+  },
+  {
+    "set_name": "Wizards Play Network 2011",
+    "set": "pw11"
+  },
+  {
+    "set_name": "Arena New Player Experience Extras",
+    "set": "xana"
+  },
+  {
+    "set_name": "Avacyn Restored Tokens",
+    "set": "tavr"
+  },
+  {
+    "set_name": "Magic 2012",
+    "set": "m12"
+  },
+  {
+    "set_name": "Innistrad: Crimson Vow",
+    "set": "vow"
+  },
+  {
+    "set_name": "30th Anniversary Tokens",
+    "set": "t30a"
+  },
+  {
+    "set_name": "Duel Decks: Merfolk vs. Goblins Tokens",
+    "set": "tddt"
+  },
+  {
+    "set_name": "Midnight Hunt Commander",
+    "set": "mic"
+  },
+  {
+    "set_name": "Commander 2021",
+    "set": "c21"
+  },
+  {
+    "set_name": "Oath of the Gatewatch",
+    "set": "ogw"
+  },
+  {
+    "set_name": "Magic Player Rewards 2006",
+    "set": "p06"
+  },
+  {
+    "set_name": "Aetherdrift Commander",
+    "set": "drc"
+  },
+  {
+    "set_name": "Innistrad Remastered",
+    "set": "inr"
+  },
+  {
+    "set_name": "Fallen Empires",
+    "set": "fem"
+  },
+  {
+    "set_name": "The Lost Caverns of Ixalan Tokens",
+    "set": "tlci"
+  },
+  {
+    "set_name": "Oath of the Gatewatch Tokens",
+    "set": "togw"
+  },
+  {
+    "set_name": "Ravnica: City of Guilds",
+    "set": "rav"
+  },
+  {
+    "set_name": "San Diego Comic-Con 2019",
+    "set": "ps19"
+  },
+  {
+    "set_name": "The Brothers' War Jumpstart Front Cards",
+    "set": "fbro"
+  },
+  {
+    "set_name": "Magic Premiere Shop 2005",
+    "set": "pmps"
+  },
+  {
+    "set_name": "Magic Premiere Shop 2008",
+    "set": "pmps08"
+  },
+  {
+    "set_name": "Secret Lair Showcase Planes",
+    "set": "pssc"
+  },
+  {
+    "set_name": "Commander Anthology Tokens",
+    "set": "tcma"
+  },
+  {
+    "set_name": "Core Set 2021",
+    "set": "m21"
+  },
+  {
+    "set_name": "Arena League 1999",
+    "set": "pal99"
+  },
+  {
+    "set_name": "From the Vault: Lore",
+    "set": "v16"
+  },
+  {
+    "set_name": "Commander 2013",
+    "set": "c13"
+  },
+  {
+    "set_name": "San Diego Comic-Con 2014",
+    "set": "ps14"
+  },
+  {
+    "set_name": "RNA Guild Kit",
+    "set": "gk2"
+  },
+  {
+    "set_name": "Gatecrash",
+    "set": "gtc"
+  },
+  {
+    "set_name": "Judge Gift Cards 1999",
+    "set": "g99"
+  },
+  {
+    "set_name": "Ixalan Tokens",
+    "set": "txln"
+  },
+  {
+    "set_name": "The Lost Caverns of Ixalan Commander Tokens",
+    "set": "tlcc"
+  },
+  {
+    "set_name": "Homelands",
+    "set": "hml"
+  },
+  {
+    "set_name": "Jurassic World Collection Tokens",
+    "set": "trex"
+  },
+  {
+    "set_name": "Duel Decks: Elves vs. Inventors Tokens",
+    "set": "tddu"
+  },
+  {
+    "set_name": "Judge Gift Cards 2010",
+    "set": "g10"
+  },
+  {
+    "set_name": "Innistrad: Midnight Hunt",
+    "set": "mid"
+  },
+  {
+    "set_name": "Modern Horizons Tokens",
+    "set": "tmh1"
+  },
+  {
+    "set_name": "Ice Age",
+    "set": "ice"
+  },
+  {
+    "set_name": "Planechase Promos",
+    "set": "phop"
+  },
+  {
+    "set_name": "Asia Pacific Land Program",
+    "set": "palp"
+  },
+  {
+    "set_name": "Commander 2011 Launch Party",
+    "set": "pcmd"
+  },
+  {
+    "set_name": "Battlebond",
+    "set": "bbd"
+  },
+  {
+    "set_name": "Modern Masters",
+    "set": "mma"
+  },
+  {
+    "set_name": "2020 Heroes of the Realm",
+    "set": "ph20"
+  },
+  {
+    "set_name": "Battle for Baldur's Gate Promos",
+    "set": "pclb"
+  },
+  {
+    "set_name": "Friday Night Magic 2012",
+    "set": "f12"
+  },
+  {
+    "set_name": "Adventures in the Forgotten Realms Art Series",
+    "set": "aafr"
+  },
+  {
+    "set_name": "Renaissance",
+    "set": "ren"
+  },
+  {
+    "set_name": "2017 Gift Pack",
+    "set": "g17"
+  },
+  {
+    "set_name": "Game Night 2019 Tokens",
+    "set": "tgn2"
+  },
+  {
+    "set_name": "Legacy Championship",
+    "set": "olgc"
+  },
+  {
+    "set_name": "Friday Night Magic 2015",
+    "set": "f15"
+  },
+  {
+    "set_name": "Duel Decks Anthology: Divine vs. Demonic Tokens",
+    "set": "tdvd"
+  },
+  {
+    "set_name": "Unhinged Promos",
+    "set": "punh"
+  },
+  {
+    "set_name": "Mystery Booster 2",
+    "set": "mb2"
+  },
+  {
+    "set_name": "Conspiracy: Take the Crown",
+    "set": "cn2"
+  },
+  {
+    "set_name": "Eldritch Moon Tokens",
+    "set": "temn"
+  },
+  {
+    "set_name": "Magic 2015 Clash Pack",
+    "set": "cp1"
+  },
+  {
+    "set_name": "Amonkhet Tokens",
+    "set": "takh"
+  },
+  {
+    "set_name": "Commander 2013 Oversized",
+    "set": "oc13"
+  },
+  {
+    "set_name": "Intl. Collectors' Edition",
+    "set": "cei"
+  },
+  {
+    "set_name": "Dark Ascension Tokens",
+    "set": "tdka"
+  },
+  {
+    "set_name": "Magic 2012 Tokens",
+    "set": "tm12"
+  },
+  {
+    "set_name": "Commander 2018",
+    "set": "c18"
+  },
+  {
+    "set_name": "Arena New Player Experience",
+    "set": "ana"
+  },
+  {
+    "set_name": "Throne of Eldraine Tokens",
+    "set": "teld"
+  },
+  {
+    "set_name": "Judge Gift Cards 2022",
+    "set": "p22"
+  },
+  {
+    "set_name": "Iconic Masters Tokens",
+    "set": "tima"
+  },
+  {
+    "set_name": "Final Fantasy Commander",
+    "set": "fic"
+  },
+  {
+    "set_name": "Year of the Rabbit 2023",
+    "set": "pl23"
+  },
+  {
+    "set_name": "Jumpstart 2022",
+    "set": "j22"
+  },
+  {
+    "set_name": "March of the Machine Commander Tokens",
+    "set": "tmoc"
+  },
+  {
+    "set_name": "Magic Premiere Shop 2009",
+    "set": "pmps09"
+  },
+  {
+    "set_name": "Lorwyn Tokens",
+    "set": "tlrw"
+  },
+  {
+    "set_name": "Foundations Front Cards",
+    "set": "ffdn"
+  },
+  {
+    "set_name": "Foundations Commander",
+    "set": "fdc"
+  },
+  {
+    "set_name": "Historic Anthology 2",
+    "set": "ha2"
+  },
+  {
+    "set_name": "Innistrad: Midnight Hunt Promos",
+    "set": "pmid"
+  },
+  {
+    "set_name": "Wilds of Eldraine Commander",
+    "set": "woc"
+  },
+  {
+    "set_name": "Astral Cards",
+    "set": "past"
+  },
+  {
+    "set_name": "2022 Heroes of the Realm",
+    "set": "ph22"
+  },
+  {
+    "set_name": "Edge of Eternities Promos",
+    "set": "peoe"
+  },
+  {
+    "set_name": "Magic 2012 Promos",
+    "set": "pm12"
+  },
+  {
+    "set_name": "Explorer Anthology 1",
+    "set": "ea1"
+  },
+  {
+    "set_name": "Tales of Middle-earth Front Cards",
+    "set": "fltr"
+  },
+  {
+    "set_name": "Time Spiral",
+    "set": "tsp"
+  },
+  {
+    "set_name": "Dominaria Remastered",
+    "set": "dmr"
+  },
+  {
+    "set_name": "Welcome Deck 2017",
+    "set": "w17"
+  },
+  {
+    "set_name": "Duel Decks: Elspeth vs. Tezzeret",
+    "set": "ddf"
+  },
+  {
+    "set_name": "Dominaria United Jumpstart Front Cards",
+    "set": "fdmu"
+  },
+  {
+    "set_name": "Tempest Promos",
+    "set": "ptmp"
+  },
+  {
+    "set_name": "Magic × Duel Masters Promos",
+    "set": "pmda"
+  },
+  {
+    "set_name": "Secret Lair: Ultimate Edition",
+    "set": "slu"
+  },
+  {
+    "set_name": "Friday Night Magic 2006",
+    "set": "f06"
+  },
+  {
+    "set_name": "Magic 2015",
+    "set": "m15"
+  },
+  {
+    "set_name": "Judge Gift Cards 2012",
+    "set": "j12"
+  },
+  {
+    "set_name": "Planeswalker Championship Promos",
+    "set": "pwcs"
+  },
+  {
+    "set_name": "Zendikar Rising Minigames",
+    "set": "mznr"
+  },
+  {
+    "set_name": "Unlimited Edition",
+    "set": "2ed"
+  },
+  {
+    "set_name": "Wizards Play Network 2024",
+    "set": "pw24"
+  },
+  {
+    "set_name": "Battlebond Tokens",
+    "set": "tbbd"
+  },
+  {
+    "set_name": "Tales of Middle-earth Art Series",
+    "set": "altr"
+  },
+  {
+    "set_name": "Vanguard Series",
+    "set": "pvan"
+  },
+  {
+    "set_name": "Duskmourn: House of Horror Commander",
+    "set": "dsc"
+  },
+  {
+    "set_name": "Modern Event Deck 2014 Tokens",
+    "set": "tmd1"
+  },
+  {
+    "set_name": "Eternal Masters",
+    "set": "ema"
+  },
+  {
+    "set_name": "Eldritch Moon",
+    "set": "emn"
+  },
+  {
+    "set_name": "Duel Decks Anthology: Garruk vs. Liliana Tokens",
+    "set": "tgvl"
+  },
+  {
+    "set_name": "Magic Origins",
+    "set": "ori"
+  },
+  {
+    "set_name": "Zendikar Tokens",
+    "set": "tzen"
+  },
+  {
+    "set_name": "Friday Night Magic 2013",
+    "set": "f13"
+  },
+  {
+    "set_name": "Phyrexia: All Will Be One Promos",
+    "set": "pone"
+  },
+  {
+    "set_name": "Battle for Zendikar",
+    "set": "bfz"
+  },
+  {
+    "set_name": "Duel Decks Anthology: Elves vs. Goblins Tokens",
+    "set": "tevg"
+  },
+  {
+    "set_name": "Mirrodin Besieged",
+    "set": "mbs"
+  },
+  {
+    "set_name": "Magic 2015 Promos",
+    "set": "pm15"
+  },
+  {
+    "set_name": "Alchemy: New Capenna",
+    "set": "ysnc"
+  },
+  {
+    "set_name": "Commander's Arsenal Oversized",
+    "set": "ocm1"
+  },
+  {
+    "set_name": "Portal Three Kingdoms",
+    "set": "ptk"
+  },
+  {
+    "set_name": "Arena League 2003",
+    "set": "pal03"
+  },
+  {
+    "set_name": "Edge of Eternities: Stellar Sights",
+    "set": "eos"
+  },
+  {
+    "set_name": "Planechase Planes",
+    "set": "ohop"
+  },
+  {
+    "set_name": "Redemption Program",
+    "set": "pred"
+  },
+  {
+    "set_name": "Innistrad Remastered Art Series",
+    "set": "ainr"
+  },
+  {
+    "set_name": "Duel Decks: Jace vs. Vraska",
+    "set": "ddm"
+  },
+  {
+    "set_name": "Murders at Karlov Manor Commander Tokens",
+    "set": "tmkc"
+  },
+  {
+    "set_name": "MagicFest 2025",
+    "set": "pf25"
+  },
+  {
+    "set_name": "Regional Championship Qualifiers 2022",
+    "set": "prcq"
+  },
+  {
+    "set_name": "Innistrad: Midnight Hunt Tokens",
+    "set": "tmid"
+  },
+  {
+    "set_name": "Vintage Masters",
+    "set": "vma"
+  },
+  {
+    "set_name": "Junior Super Series",
+    "set": "psus"
+  },
+  {
+    "set_name": "New Capenna Commander",
+    "set": "ncc"
+  },
+  {
+    "set_name": "Fourth Edition",
+    "set": "4ed"
+  },
+  {
+    "set_name": "Magic 2010 Tokens",
+    "set": "tm10"
+  },
+  {
+    "set_name": "Odyssey",
+    "set": "ody"
+  },
+  {
+    "set_name": "Magic Origins Clash Pack",
+    "set": "cp3"
+  },
+  {
+    "set_name": "Adventures in the Forgotten Realms Minigames",
+    "set": "mafr"
+  },
+  {
+    "set_name": "Modern Horizons 2 Promos",
+    "set": "pmh2"
+  },
+  {
+    "set_name": "Innistrad: Crimson Vow Promos",
+    "set": "pvow"
+  },
+  {
+    "set_name": "Pro Tour Promos",
+    "set": "ppro"
+  },
+  {
+    "set_name": "Unglued Tokens",
+    "set": "tugl"
+  },
+  {
+    "set_name": "Lorwyn",
+    "set": "lrw"
+  },
+  {
+    "set_name": "Rise of the Eldrazi Promos",
+    "set": "proe"
+  },
+  {
+    "set_name": "Core Set 2020",
+    "set": "m20"
+  },
+  {
+    "set_name": "Magic Premiere Shop 2006",
+    "set": "pmps06"
+  },
+  {
+    "set_name": "Duel Decks: Venser vs. Koth",
+    "set": "ddi"
+  },
+  {
+    "set_name": "Tenth Edition Promos",
+    "set": "p10e"
+  },
+  {
+    "set_name": "Friday Night Magic 2009",
+    "set": "f09"
+  },
+  {
+    "set_name": "Commander 2019 Oversized",
+    "set": "oc19"
+  },
+  {
+    "set_name": "Love Your LGS 2020",
+    "set": "plg20"
+  },
+  {
+    "set_name": "Foundations Art Series",
+    "set": "afdn"
+  },
+  {
+    "set_name": "Mirrodin",
+    "set": "mrd"
+  },
+  {
+    "set_name": "Modern Horizons",
+    "set": "mh1"
+  },
+  {
+    "set_name": "Tempest",
+    "set": "tmp"
+  }
+]
