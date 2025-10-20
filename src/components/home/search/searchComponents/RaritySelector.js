@@ -1,7 +1,7 @@
 "use client";
-
 import * as React from "react";
 import { useState } from "react";
+import { Label } from "@radix-ui/react-dropdown-menu";
 import { Button } from "@/components/ui/button";
 import {
   Command,
@@ -16,22 +16,30 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
-import data from "@/components/home/search/cardSubTypeData.json";
-import { Label } from "@radix-ui/react-dropdown-menu";
 
-export default function SubTypeSelector() {
-  const [subType, setSubType] = useState("");
+export default function RaritySelector() {
+  const [value, setValue] = useState(""); // This state will now correctly hold the selected rarity
+  const data = [
+    "Common",
+    "Uncommon",
+    "Rare",
+    "Mythic Rare",
+    "Special",
+    "Bonus",
+    "Token",
+    "Basic Land",
+  ];
 
   return (
-    <div>
-      <Label>Sub Type</Label>
-      <input type="hidden" name="subType" value={subType} />
-      <ComboboxSet data={data} subType={subType} setSubType={setSubType} />
+    <div className="flex flex-col">
+      <Label>Rarity</Label>
+      <input type="hidden" name="rarity" value={value}></input>
+      <ComboboxSet data={data} value={value} setValue={setValue} />
     </div>
   );
 }
 
-function ComboboxSet({ data, subType, setSubType }) {
+function ComboboxSet({ data, value, setValue }) {
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState("");
 
@@ -46,28 +54,28 @@ function ComboboxSet({ data, subType, setSubType }) {
           variant="outline"
           role="combobox"
           aria-expanded={open}
-          className="w-full justify-between"
+          className="w-full justify-between p-6 mt-2"
         >
-          {subType || "Select sub type..."}
+          {value || "Select rarity..."}
         </Button>
       </PopoverTrigger>
       <PopoverContent align="start" className="PopoverContent">
         <Command>
           <CommandInput
-            placeholder="Search sub type..."
+            placeholder="Select rarity..."
             value={search}
             onValueChange={setSearch}
             className="h-9"
           />
           <CommandList>
-            <CommandEmpty>No sub-types found.</CommandEmpty>
+            <CommandEmpty>No Rarity found.</CommandEmpty>
             <CommandGroup>
               {filteredData.map((item) => (
                 <CommandItem
                   key={item}
                   value={item}
                   onSelect={() => {
-                    setSubType(item);
+                    setValue(item);
                     setSearch("");
                     setOpen(false);
                   }}

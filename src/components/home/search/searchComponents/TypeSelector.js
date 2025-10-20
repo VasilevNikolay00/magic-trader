@@ -1,7 +1,7 @@
 "use client";
+
 import * as React from "react";
 import { useState } from "react";
-import setData from "@/components/home/search/setData.json";
 import { Button } from "@/components/ui/button";
 import {
   Command,
@@ -16,36 +16,27 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
+import data from "@/components/home/search/data/cardSubTypeData.json";
 import { Label } from "@radix-ui/react-dropdown-menu";
 
-export default function SetSelector() {
-  const [setCode, setSetCode] = useState(""); // for <input name="set">
-  const [setName, setSetName] = useState(""); // for display only
+export default function TypeSelector() {
+  const [type, setType] = useState("");
 
   return (
     <div className="flex flex-col">
-      <Label htmlFor="terms">Set</Label>
-      <input type="hidden" name="set" value={setCode} />
-      <ComboboxSet
-        setData={setData}
-        setCode={setSetCode}
-        setName={setName}
-        setSetName={setSetName}
-      />
+      <Label>Type</Label>
+      <input type="hidden" name="type" value={type}></input>
+      <ComboboxSet data={data} type={type} setType={setType} />
     </div>
   );
 }
 
-function ComboboxSet({ setData, setCode, setName, setSetName }) {
+function ComboboxSet({ data, type, setType }) {
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState("");
 
-  const filteredSets = setData
-    .filter(
-      (set) =>
-        set.set_name.toLowerCase().includes(search.toLowerCase()) ||
-        set.set.toLowerCase().includes(search.toLowerCase())
-    )
+  const filteredData = data
+    .filter((item) => item.toLowerCase().includes(search.toLowerCase()))
     .slice(0, 10);
 
   return (
@@ -55,33 +46,33 @@ function ComboboxSet({ setData, setCode, setName, setSetName }) {
           variant="outline"
           role="combobox"
           aria-expanded={open}
-          className="justify-between"
+          className="w-full justify-between p-6 mt-2"
         >
-          {setName || "Select set..."}
+          {type || "Select type..."}
         </Button>
       </PopoverTrigger>
       <PopoverContent align="start" className="PopoverContent">
         <Command>
           <CommandInput
-            placeholder="Search set..."
+            placeholder="Search type..."
             value={search}
             onValueChange={setSearch}
+            className="h-9"
           />
           <CommandList>
-            <CommandEmpty>No sets found.</CommandEmpty>
+            <CommandEmpty>No type found.</CommandEmpty>
             <CommandGroup>
-              {filteredSets.map((set) => (
+              {filteredData.map((item) => (
                 <CommandItem
-                  key={set.set}
-                  value={set.set_name}
+                  key={item}
+                  value={item}
                   onSelect={() => {
-                    setSetName(set.set_name); // display value
-                    setCode(set.set); // hidden input value
-                    setSearch(""); // clear search
+                    setType(item);
+                    setSearch("");
                     setOpen(false);
                   }}
                 >
-                  {set.set_name}
+                  {item}
                 </CommandItem>
               ))}
             </CommandGroup>

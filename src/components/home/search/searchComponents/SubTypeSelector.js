@@ -1,7 +1,8 @@
 "use client";
+
 import * as React from "react";
 import { useState } from "react";
-import { Label } from "@radix-ui/react-dropdown-menu";
+import { Button } from "@/components/ui/button";
 import {
   Command,
   CommandEmpty,
@@ -15,23 +16,22 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
-import data from "@/components/home/search/cardSubTypeData.json";
-import { Button } from "@/components/ui/button";
+import data from "@/components/home/search/data/cardSubTypeData.json";
+import { Label } from "@radix-ui/react-dropdown-menu";
 
-export default function SuperTypeSelector() {
-  const [type, setType] = useState(""); // This state will now correctly hold the selected rarity
-  const data = ["Basic", "Legendary", "Snow", "Host", "Ongoing", "World"];
+export default function SubTypeSelector() {
+  const [subType, setSubType] = useState("");
 
   return (
-    <div className="flex flex-col">
-      <Label>Super Type</Label>
-      <input type="hidden" name="supertype" value={type}></input>
-      <ComboboxSet data={data} type={type} setType={setType} />
+    <div>
+      <Label>Sub Type</Label>
+      <input type="hidden" name="subType" value={subType} />
+      <ComboboxSet data={data} subType={subType} setSubType={setSubType} />
     </div>
   );
 }
 
-function ComboboxSet({ data, type, setType }) {
+function ComboboxSet({ data, subType, setSubType }) {
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState("");
 
@@ -46,28 +46,28 @@ function ComboboxSet({ data, type, setType }) {
           variant="outline"
           role="combobox"
           aria-expanded={open}
-          className="w-full justify-between"
+          className="w-full justify-between p-6 mt-2"
         >
-          {type || "Select super type..."}
+          {subType || "Select sub type..."}
         </Button>
       </PopoverTrigger>
       <PopoverContent align="start" className="PopoverContent">
         <Command>
           <CommandInput
-            placeholder="Search super type..."
+            placeholder="Search sub type..."
             value={search}
             onValueChange={setSearch}
             className="h-9"
           />
           <CommandList>
-            <CommandEmpty>No type found.</CommandEmpty>
+            <CommandEmpty>No sub-types found.</CommandEmpty>
             <CommandGroup>
               {filteredData.map((item) => (
                 <CommandItem
                   key={item}
                   value={item}
                   onSelect={() => {
-                    setType(item);
+                    setSubType(item);
                     setSearch("");
                     setOpen(false);
                   }}

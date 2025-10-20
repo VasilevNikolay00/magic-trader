@@ -1,7 +1,6 @@
 "use client";
 import * as React from "react";
 import { useState } from "react";
-import { Label } from "@radix-ui/react-dropdown-menu";
 import { Button } from "@/components/ui/button";
 import {
   Command,
@@ -16,35 +15,37 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
+import { Label } from "@radix-ui/react-dropdown-menu";
+import setData from "@/components/home/search/data/setData.json";
 
-export default function RaritySelector() {
-  const [value, setValue] = useState(""); // This state will now correctly hold the selected rarity
-  const data = [
-    "Common",
-    "Uncommon",
-    "Rare",
-    "Mythic Rare",
-    "Special",
-    "Bonus",
-    "Token",
-    "Basic Land",
-  ];
+export default function SetSelector() {
+  const [setCode, setSetCode] = useState(""); // for <input name="set">
+  const [setName, setSetName] = useState(""); // for display only
 
   return (
     <div className="flex flex-col">
-      <Label>Rarity</Label>
-      <input type="hidden" name="rarity" value={value}></input>
-      <ComboboxSet data={data} value={value} setValue={setValue} />
+      <Label htmlFor="terms">Set</Label>
+      <input type="hidden" name="set" value={setCode} />
+      <ComboboxSet
+        setData={setData}
+        setCode={setSetCode}
+        setName={setName}
+        setSetName={setSetName}
+      />
     </div>
   );
 }
 
-function ComboboxSet({ data, value, setValue }) {
+function ComboboxSet({ setData, setCode, setName, setSetName }) {
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState("");
 
-  const filteredData = data
-    .filter((item) => item.toLowerCase().includes(search.toLowerCase()))
+  const filteredSets = setData
+    .filter(
+      (set) =>
+        set.set_name.toLowerCase().includes(search.toLowerCase()) ||
+        set.set.toLowerCase().includes(search.toLowerCase())
+    )
     .slice(0, 10);
 
   return (
@@ -54,33 +55,33 @@ function ComboboxSet({ data, value, setValue }) {
           variant="outline"
           role="combobox"
           aria-expanded={open}
-          className="w-full justify-between"
+          className="justify-between p-6 mt-2"
         >
-          {value || "Select rarity..."}
+          {setName || "Select set..."}
         </Button>
       </PopoverTrigger>
       <PopoverContent align="start" className="PopoverContent">
         <Command>
           <CommandInput
-            placeholder="Select rarity..."
+            placeholder="Search set..."
             value={search}
             onValueChange={setSearch}
-            className="h-9"
           />
           <CommandList>
-            <CommandEmpty>No Rarity found.</CommandEmpty>
+            <CommandEmpty>No sets found.</CommandEmpty>
             <CommandGroup>
-              {filteredData.map((item) => (
+              {filteredSets.map((set) => (
                 <CommandItem
-                  key={item}
-                  value={item}
+                  key={set.set}
+                  value={set.set_name}
                   onSelect={() => {
-                    setValue(item);
-                    setSearch("");
+                    setSetName(set.set_name); // display value
+                    setCode(set.set); // hidden input value
+                    setSearch(""); // clear search
                     setOpen(false);
                   }}
                 >
-                  {item}
+                  {set.set_name}
                 </CommandItem>
               ))}
             </CommandGroup>

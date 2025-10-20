@@ -16,24 +16,24 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
-import data from "@/components/home/search/cardSubTypeData.json";
 import { Label } from "@radix-ui/react-dropdown-menu";
+import data from "@/components/home/search/data/keyWordsData.json";
 
-export default function TypeSelector() {
-  const [type, setType] = useState("");
-
+export default function KeyWordsSelector() {
+  const [subType, setSubType] = useState("");
   return (
-    <div className="flex flex-col">
-      <Label>Type</Label>
-      <input type="hidden" name="type" value={type}></input>
-      <ComboboxSet data={data} type={type} setType={setType} />
+    <div>
+      <Label>Key Words</Label>
+      <input type="hidden" name="keyWorld" value={subType} />
+      <ComboboxSet data={data} subType={subType} setSubType={setSubType} />
     </div>
   );
 }
 
-function ComboboxSet({ data, type, setType }) {
+function ComboboxSet({ data, subType, setSubType }) {
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState("");
+  const [selection, SetSelection] = useState("");
 
   const filteredData = data
     .filter((item) => item.toLowerCase().includes(search.toLowerCase()))
@@ -46,28 +46,28 @@ function ComboboxSet({ data, type, setType }) {
           variant="outline"
           role="combobox"
           aria-expanded={open}
-          className="w-full justify-between"
+          className="w-full justify-between p-6 mt-2"
         >
-          {type || "Select type..."}
+          {subType || "Select key word..."}
         </Button>
       </PopoverTrigger>
       <PopoverContent align="start" className="PopoverContent">
         <Command>
           <CommandInput
-            placeholder="Search type..."
-            value={search}
+            placeholder="Search key word..."
             onValueChange={setSearch}
             className="h-9"
           />
           <CommandList>
-            <CommandEmpty>No type found.</CommandEmpty>
+            <CommandEmpty>No key words found.</CommandEmpty>
             <CommandGroup>
               {filteredData.map((item) => (
                 <CommandItem
                   key={item}
                   value={item}
                   onSelect={() => {
-                    setType(item);
+                    setSubType(item);
+                    SetSelection(selection + ", " + item);
                     setSearch("");
                     setOpen(false);
                   }}

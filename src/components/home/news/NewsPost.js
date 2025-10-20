@@ -1,4 +1,3 @@
-// NewsPost.js (Client Component)
 "use client";
 import { useState } from "react";
 import { Button } from "../../ui/button";
@@ -12,10 +11,9 @@ import {
 
 export default function NewsPost({ rssFeed }) {
   const [feed, setFeed] = useState("goldfish");
-
   return (
-    <div>
-      <div className="flex-row flex justify-center mb-5">
+    <div className="flex flex-col h-full">
+      <div className="flex-row flex justify-center mb-5 flex-shrink-0">
         <ButtonGroup>
           <Button
             onClick={() => setFeed("goldfish")}
@@ -37,10 +35,10 @@ export default function NewsPost({ rssFeed }) {
           </Button>
         </ButtonGroup>
       </div>
-      <div className="flex flex-col h-200 overflow-auto truncate">
+      <div className="flex-1 overflow-auto">
         {rssFeed[feed]?.map((item) => (
           <Item key={item.link} asChild>
-            <a href={item.link} target="_blank">
+            <a href={item.link} target="_blank" rel="noopener noreferrer">
               <ItemContent>
                 <ItemTitle>{item.title}</ItemTitle>
                 <ItemDescription>{item.contentSnippet}</ItemDescription>

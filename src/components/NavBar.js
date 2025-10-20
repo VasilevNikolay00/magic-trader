@@ -1,57 +1,47 @@
+"use client";
 import * as React from "react";
 import Link from "next/link";
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-  navigationMenuTriggerStyle,
-} from "@/components/ui/navigation-menu";
+import { cn } from "@/lib/utils";
 
 const components = [
   {
     title: "Cards",
     href: "/cards",
-    description:
-      "A modal dialog that interrupts the user with important content and expects a response.",
   },
   {
     title: "Decks",
     href: "/decks",
-    description:
-      "For sighted users to preview content available behind a link.",
   },
   {
-    title: "DeckBuilder",
+    title: "Deck Builder",
     href: "/deckbuilder",
-    description: "Visually or semantically separates content.",
   },
   {
     title: "Account",
     href: "/account",
-    description:
-      "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
   },
 ];
 
 export default function NavBar() {
   return (
-    <NavigationMenu>
-      <NavigationMenuList className="flex-wrap m-5 bg-accent rounded-md ">
-        <NavigationMenuItem>
+    <div className="mr-5 ml-5 mt-2 bg-card rounded-xl shadow-md">
+      <nav className="w-full p-2 opacity-100">
+        <div className="flex w-full gap-2">
           {components.map((item) => (
-            <NavigationMenuLink
-              asChild
-              className={navigationMenuTriggerStyle() + " m-2"}
+            <Link
               key={item.title}
+              href={item.href}
+              className={cn(
+                "flex items-center justify-center rounded-md w-1/14 py-1 border  bg-accent font-bold transition",
+                "hover:bg-accent/70 active:bg-primary-foreground hover:text-accent-foreground",
+                "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+              )}
             >
-              <Link href={item.href}>{item.title}</Link>
-            </NavigationMenuLink>
+              {item.title}
+            </Link>
           ))}
-        </NavigationMenuItem>
-      </NavigationMenuList>
-    </NavigationMenu>
+        </div>
+      </nav>
+    </div>
   );
 }
