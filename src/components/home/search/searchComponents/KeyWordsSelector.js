@@ -24,7 +24,7 @@ export default function KeyWordsSelector() {
   return (
     <div>
       <Label>Key Words</Label>
-      <input type="hidden" name="keyWorld" value={subType} />
+      <input type="hidden" name="keyWords" value={subType} />
       <ComboboxSet data={data} subType={subType} setSubType={setSubType} />
     </div>
   );

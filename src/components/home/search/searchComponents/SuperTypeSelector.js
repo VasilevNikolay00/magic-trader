@@ -24,7 +24,7 @@ export default function SuperTypeSelector() {
   return (
     <div className="flex flex-col">
       <Label>Super Type</Label>
-      <input type="hidden" name="supertype" value={type}></input>
+      <input type="hidden" name="superType" value={type}></input>
       <ComboboxSet data={data} type={type} setType={setType} />
     </div>
   );

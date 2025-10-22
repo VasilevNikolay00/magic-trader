@@ -2,8 +2,13 @@
 import * as React from "react";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
+import { Button } from "./ui/button";
 
 const components = [
+  {
+    title: "Home",
+    href: "/",
+  },
   {
     title: "Cards",
     href: "/cards",
@@ -27,18 +32,10 @@ export default function NavBar() {
     <div className="mr-5 ml-5 mt-2 bg-card rounded-xl shadow-md">
       <nav className="w-full p-2 opacity-100">
         <div className="flex w-full gap-2">
-          {components.map((item) => (
-            <Link
-              key={item.title}
-              href={item.href}
-              className={cn(
-                "flex items-center justify-center rounded-md w-1/14 py-1 border  bg-accent font-bold transition",
-                "hover:bg-accent/70 active:bg-primary-foreground hover:text-accent-foreground",
-                "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-              )}
-            >
-              {item.title}
-            </Link>
+          {components.map((item, i) => (
+            <a href={item.href} key={i}>
+              <Button variant="default">{item.title}</Button>
+            </a>
           ))}
         </div>
       </nav>
