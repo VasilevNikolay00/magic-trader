@@ -1,5 +1,5 @@
 "use client";
-export default function CardDisplay(cardData) {
+export default function CardDisplay({ cardData }) {
   console.log(cardData);
   return (
     <div>

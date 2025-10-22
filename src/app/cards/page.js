@@ -5,7 +5,7 @@ const cardData = cardRequest();
 export default function Page() {
   return (
     <div>
-      <CardDisplay />
+      <CardDisplay cardData={cardData} />
     </div>
   );
 }
