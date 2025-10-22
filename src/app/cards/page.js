@@ -1,11 +1,11 @@
 import CardDisplay from "@/components/cards/CardDisplay";
 import { cardRequest } from "@/lib/cardRequest";
 
-const cardData = cardRequest();
-export default function Page() {
+export default async function Page() {
+  const data = await cardRequest();
   return (
-    <div>
-      <CardDisplay cardData={cardData} />
+    <div className=" flex flex-row h-[90%] bg-red justify-center  ">
+      <CardDisplay cardData={data.content} />
     </div>
   );
 }

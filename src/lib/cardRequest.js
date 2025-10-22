@@ -27,7 +27,7 @@ export async function cardRequest(params) {
     }
 
     const data = await response.json();
-    return JSON.parse(data);
+    return data;
   } catch (error) {
     console.error("Error during cardRequest:", error);
     throw error;

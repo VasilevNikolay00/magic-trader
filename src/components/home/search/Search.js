@@ -26,7 +26,6 @@ export default function Search() {
     e.preventDefault(); // Prevent default form submission to handle navigation manually
     const formData = new FormData(e.target);
     const searchParams = new URLSearchParams();
-    console.log(formData);
     // Iterate over formData entries and append them to URLSearchParams
     for (let [key, value] of formData.entries()) {
       if (value) {
