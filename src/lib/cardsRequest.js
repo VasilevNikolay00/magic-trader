@@ -1,5 +1,5 @@
-export async function cardRequest(params = {}) {
-  const backendUrl = "http://localhost:8080/api/cards"; // Get the base URL from environment
+export async function cardsRequest(params = {}) {
+  const backendUrl = "http://localhost:8080/api/cards";
   if (!backendUrl) {
     console.error("Environment variable BACKEND_CARDS is not set.");
     throw new Error("Backend URL is not configured.");
@@ -15,8 +15,6 @@ export async function cardRequest(params = {}) {
 
   for (const key in params) {
     if (Object.prototype.hasOwnProperty.call(params, key)) {
-      // Avoid re-adding page and pageSize as we handled them above,
-      // and only add if the value is not null/undefined/empty string
       if (key !== "page" && key !== "pageSize" && params[key]) {
         queryParams.append(key, params[key].toString());
       }

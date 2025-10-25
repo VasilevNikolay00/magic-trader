@@ -10,7 +10,7 @@ export default function PaginationCardControls({ pageData }) {
 
   const { number: currentPage, totalPages } = pageData;
 
-  const goToPage = (page) => {
+  const goToPage = async (page) => {
     const params = new URLSearchParams(Array.from(searchParams.entries()));
     params.set("page", page.toString());
     router.push(`${pathname}?${params.toString()}`);
@@ -34,8 +34,12 @@ export default function PaginationCardControls({ pageData }) {
   );
 
   const getPageRange = () => {
-    const isFirstSection = currentPage === 0;
-    const isLastSection = totalPages - currentPage <= 10;
+    const isFirstSection = currentPage === 0 && totalPages > 10;
+    const isLastSection = totalPages - currentPage <= 10 && totalPages > 10;
+    const lessThanorEqual10pages = totalPages <= 10;
+    console.log(isFirstSection);
+    console.log(isLastSection);
+    console.log(lessThanorEqual10pages);
 
     if (isFirstSection) {
       // First 9 pages
@@ -61,6 +65,20 @@ export default function PaginationCardControls({ pageData }) {
       };
     }
 
+    if (lessThanorEqual10pages) {
+      console.log(totalPages);
+      console.log(currentPage);
+
+      return {
+        showFirstButton: false,
+        showFirstEllipsis: false,
+        rangeStart: 0,
+        rangeCount: totalPages,
+        showLastEllipsis: false,
+        showLastButton: false,
+      };
+    }
+
     return {
       showFirstButton: true,
       showFirstEllipsis: true,
@@ -73,8 +91,8 @@ export default function PaginationCardControls({ pageData }) {
 
   const range = getPageRange();
   return (
-    <div className="flex items-center justify-center">
-      <ButtonGroup className="rounded-2xl text-2xl min-w-96">
+    <div className="flex items-center justify-center bg-card px-3 py-2 rounded-2xl">
+      <ButtonGroup className="rounded-2xl text-2xl">
         {range.showFirstButton && renderButton(0, 1)}
         {range.showFirstEllipsis && renderEllipsis("first-ellipsis")}
         {Array.from({ length: range.rangeCount }, (_, i) => {
