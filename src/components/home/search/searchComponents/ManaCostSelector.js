@@ -1,29 +1,35 @@
 "use client";
 
-import { Slider } from "@/components/ui/slider";
-import { Label } from "@radix-ui/react-dropdown-menu";
 import { useState } from "react";
+import { Slider } from "@/components/ui/slider";
+import { Label } from "@/components/ui/label";
 
 export default function ManaCostSelector() {
-  const DEFAULT_MIN_POWER = -1;
-  const DEFAULT_MAX_POWER = 15;
-  const [value, setValue] = useState([DEFAULT_MIN_POWER, DEFAULT_MAX_POWER]);
+  const [value, setValue] = useState([-1]);
 
-  function returnValue(value) {
-    if (value[0] === DEFAULT_MIN_POWER && value[1] === DEFAULT_MAX_POWER) {
-      return "";
-    }
-    return value.join(",");
-  }
+  const handleValueChange = (newValue) => {
+    setValue(newValue);
+  };
+
+  const manaCost = value[0];
 
   return (
     <div className="w-full space-y-3">
-      <input type="hidden" name="manaCost" value={returnValue(value)}></input>
+      {manaCost !== -1 && <input type="hidden" name="cmc" value={manaCost} />}
+
       <Label>Mana Cost</Label>
-      <Slider value={value} onValueChange={setValue} max={15} step={1} />
+
+      <Slider
+        min={-1}
+        max={19}
+        step={1}
+        value={value}
+        onValueChange={handleValueChange}
+      />
+
       <div className="flex justify-between text-sm text-muted-foreground">
-        <span>Min: {value[0]}</span>
-        <span>Max: {value[1] === 15 ? "+15" : value[1]}</span>
+        <span>Selected: {manaCost === -1 ? "Any" : manaCost}</span>
+        <span>Max: {19}</span>
       </div>
     </div>
   );

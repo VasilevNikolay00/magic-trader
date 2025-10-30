@@ -9,10 +9,9 @@ export default async function Page({ searchParams }) {
   let error = null;
 
   try {
-    const resolvedSearchParams = await searchParams; // This line is the key fix
+    const resolvedSearchParams = await searchParams;
 
     const result = await cardsRequest(resolvedSearchParams);
-
     cardData = result.content;
     pageData = result.page;
   } catch (err) {
@@ -28,13 +27,6 @@ export default async function Page({ searchParams }) {
     );
   }
 
-  if (!cardData || cardData.length === 0) {
-    return (
-      <div className="flex flex-row h-[90%] w-full pt-4 bg-red justify-center items-center">
-        <p className="text-white text-2xl">No cards to display.</p>
-      </div>
-    );
-  }
   return (
     <div className="flex flex-col h-[90%] w-full pt-4 gap-2 items-center relative ">
       <OrderSelector />

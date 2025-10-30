@@ -16,7 +16,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
-import data from "@/components/home/search/data/cardSubTypeData.json";
+import data from "@/components/home/search/data/cardTypeData.json";
 import { Label } from "@radix-ui/react-dropdown-menu";
 
 export default function TypeSelector() {

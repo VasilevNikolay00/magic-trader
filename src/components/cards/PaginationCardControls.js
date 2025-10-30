@@ -37,9 +37,6 @@ export default function PaginationCardControls({ pageData }) {
     const isFirstSection = currentPage === 0 && totalPages > 10;
     const isLastSection = totalPages - currentPage <= 10 && totalPages > 10;
     const lessThanorEqual10pages = totalPages <= 10;
-    console.log(isFirstSection);
-    console.log(isLastSection);
-    console.log(lessThanorEqual10pages);
 
     if (isFirstSection) {
       // First 9 pages
@@ -66,9 +63,6 @@ export default function PaginationCardControls({ pageData }) {
     }
 
     if (lessThanorEqual10pages) {
-      console.log(totalPages);
-      console.log(currentPage);
-
       return {
         showFirstButton: false,
         showFirstEllipsis: false,

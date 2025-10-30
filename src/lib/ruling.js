@@ -1,16 +1,11 @@
-export async function cardsRequest(params = {}) {
-  const backendUrl = "http://localhost:8080/api/cards";
+export async function rulingRequest(params = {}) {
+  const backendUrl = "http://localhost:8080/api/cards/ruling";
   if (!backendUrl) {
     console.error("Environment variable BACKEND_CARDS is not set.");
     throw new Error("Backend URL is not configured.");
   }
 
   const queryParams = new URLSearchParams();
-  const page = params.page ? parseInt(params.page, 10) : 0;
-  const size = params.size ? parseInt(params.size, 10) : 20;
-
-  queryParams.append("page", page.toString());
-  queryParams.append("size", size.toString());
 
   for (const key in params) {
     if (Object.prototype.hasOwnProperty.call(params, key)) {
@@ -43,16 +38,7 @@ export async function cardsRequest(params = {}) {
     }
 
     const data = await response.json();
-
-    return {
-      content: data.content || [],
-      page: {
-        number: data.page.currentPage || page,
-        totalPages: data.page.totalPages || 1,
-        totalElements: data.page.totalElements,
-        size: data.page.size || size,
-      },
-    };
+    return data.content;
   } catch (error) {
     console.error("Error during cardRequest:", error);
     throw error;

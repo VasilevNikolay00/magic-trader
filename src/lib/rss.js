@@ -1,5 +1,5 @@
 import Parser from "rss-parser";
-const fs = require("fs");
+
 let cachedNewsFeedData = null;
 let lastFetchTime = 0;
 const CACHE_LIFETIME = 3600 * 12 * 1000;
@@ -41,7 +41,6 @@ export async function fetchAllRssFeeds() {
     }
   }
 
-  // Update cache and last fetch time
   cachedNewsFeedData = fetchedData;
   lastFetchTime = now;
 

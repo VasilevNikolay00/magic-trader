@@ -10,8 +10,11 @@ import {
 } from "@/components/ui/select";
 import { Label } from "../ui/label";
 import { useRouter, useSearchParams, usePathname } from "next/navigation"; // Import hooks
+import { useState } from "react";
+import { Input } from "../ui/input";
 
 export default function OrderSelector() {
+  const [searchTerm, setSearchTerm] = useState("");
   const router = useRouter();
   const searchParams = useSearchParams();
   const pathname = usePathname();
@@ -36,6 +39,21 @@ export default function OrderSelector() {
     params.set("page", "0");
     router.push(`${pathname}?${params.toString()}`);
   };
+
+  const setSize = (size) => {
+    const params = new URLSearchParams(Array.from(searchParams.entries()));
+    params.set("size", size.toString());
+    params.set("page", "0");
+    router.push(`${pathname}?${params.toString()}`);
+  };
+
+  const findByName = () => {
+    const params = new URLSearchParams(Array.from(searchParams.entries()));
+    params.set("name", searchTerm.toString());
+    params.set("page", "0");
+    router.push(`${pathname}?${params.toString()}`);
+  };
+  console.log("search: " + searchTerm);
 
   return (
     <div className="bg-card w-[90%] rounded-2xl h-[5%] items-center gap-4 flex flex-row">
@@ -99,6 +117,28 @@ export default function OrderSelector() {
               <SelectItem value="zhs">Simplified Chinese</SelectItem>
               <SelectItem value="zht">Traditional Chinese</SelectItem>
             </SelectGroup>
+          </SelectContent>
+        </Select>
+      </div>
+      <div className="w-4/5 bg-red h-full"></div>
+      <div className="flex flex-row gap-4 pr-10 justify-end w-full">
+        <form onSubmit={findByName}>
+          <Input
+            type="text"
+            onChange={(e) => setSearchTerm(e.target.value)}
+            placeholder="Card Name..."
+            value={searchTerm}
+          />
+        </form>
+        <Label className={"pl-10 "}>Size</Label>
+        <Select onValueChange={(value) => setSize(value)}>
+          <SelectTrigger>
+            <SelectValue placeholder="Auto"></SelectValue>
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="20">20</SelectItem>
+            <SelectItem value="50">50</SelectItem>
+            <SelectItem value="100">100</SelectItem>
           </SelectContent>
         </Select>
       </div>

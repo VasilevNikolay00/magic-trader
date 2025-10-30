@@ -1,17 +1,20 @@
-export async function card(id) {
-  const backendUrl = "http://localhost:8080/api/cards";
+"use server";
+export default async function login(email, password) {
+  const backendUrl = "http://localhost:8080/api/auth/login";
   if (!backendUrl) {
     console.error("Environment variable BACKEND_CARDS is not set.");
     throw new Error("Backend URL is not configured.");
   }
 
-  const requestUrl = `${backendUrl}/${id}`;
-
   try {
-    const response = await fetch(requestUrl, {
-      method: "GET",
+    const response = await fetch(backendUrl, {
+      method: "POST",
       headers: {
         "Content-Type": "application/json",
+      },
+      body: {
+        username: email,
+        password: password,
       },
       cache: "no-store",
     });

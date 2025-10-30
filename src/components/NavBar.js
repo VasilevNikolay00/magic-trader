@@ -25,6 +25,10 @@ const components = [
     title: "Account",
     href: "/account",
   },
+  {
+    title: "Login",
+    href: "/login",
+  },
 ];
 
 export default function NavBar() {

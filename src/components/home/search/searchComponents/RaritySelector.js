@@ -19,16 +19,7 @@ import {
 
 export default function RaritySelector() {
   const [value, setValue] = useState(""); // This state will now correctly hold the selected rarity
-  const data = [
-    "Common",
-    "Uncommon",
-    "Rare",
-    "Mythic Rare",
-    "Special",
-    "Bonus",
-    "Token",
-    "Basic Land",
-  ];
+  const data = ["Common", "Uncommon", "Rare", "Mythic", "Special", "Bonus"];
 
   return (
     <div className="flex flex-col">

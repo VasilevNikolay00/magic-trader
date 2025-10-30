@@ -21,15 +21,15 @@ const Images = {
   C: C,
 };
 
-export default function ManaColorSelector() {
+export default function ColorSelector() {
   const [colorStates, setColorStates] = useState(
     new Map([
-      ["W", false],
-      ["U", false],
       ["B", false],
-      ["R", false],
-      ["G", false],
       ["C", false],
+      ["G", false],
+      ["R", false],
+      ["U", false],
+      ["W", false],
     ])
   );
 
@@ -44,7 +44,7 @@ export default function ManaColorSelector() {
   const getActiveColors = () => {
     return Array.from(colorStates.keys())
       .filter((color) => colorStates.get(color))
-      .join("");
+      .join(",");
   };
   return (
     <div>

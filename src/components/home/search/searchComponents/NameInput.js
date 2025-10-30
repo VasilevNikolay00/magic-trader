@@ -16,8 +16,8 @@ export default function NameInput() {
           Search by name or phrase in the name of the card
         </FieldDescription>
         <Input
-          id="cardName"
-          name="cardName"
+          id="name"
+          name="name"
           placeholder="Phyrexian Arena"
           className="p-6"
         />

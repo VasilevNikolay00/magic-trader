@@ -14,10 +14,7 @@ import TypeSelector from "./searchComponents/TypeSelector";
 import SuperTypeSelector from "./searchComponents/SuperTypeSelector";
 import SubTypeSelector from "./searchComponents/SubTypeSelector";
 import ManaCostSelector from "./searchComponents/ManaCostSelector";
-import PowerSelector from "./searchComponents/PowerSelector";
-import TougnessSelector from "./searchComponents/ToughnessSelector copy";
-import LoyaltySelector from "./searchComponents/LoyaltySelector";
-import ManaColorSelector from "./searchComponents/ManaColorSelector";
+import ColorSelector from "./searchComponents/ColorSelector";
 import KeyWordsSelector from "./searchComponents/KeyWordsSelector";
 import NameInput from "./searchComponents/NameInput";
 
@@ -26,14 +23,33 @@ export default function Search() {
     e.preventDefault(); // Prevent default form submission to handle navigation manually
     const formData = new FormData(e.target);
     const searchParams = new URLSearchParams();
-    // Iterate over formData entries and append them to URLSearchParams
+
+    const superTypeValue = formData.get("superType") || "";
+    const subTypeValue = formData.get("subType") || "";
+    const typeValue = formData.get("type") || "";
+    let combinedValue = "";
+
+    if (subTypeValue && !superTypeValue && !typeValue) {
+      combinedValue = subTypeValue.toLocaleLowerCase();
+    } else if (superTypeValue || typeValue) {
+      combinedValue = `
+      ${superTypeValue && superTypeValue.toLocaleLowerCase()} ${
+        typeValue && typeValue.toLocaleLowerCase()
+      } ${subTypeValue && `— ${subTypeValue.toLocaleLowerCase()}`}`
+        .trim()
+        .replace(/\s+/g, " ");
+    }
+
+    if (combinedValue) {
+      searchParams.append("typeLine", combinedValue);
+    }
+
     for (let [key, value] of formData.entries()) {
-      if (value) {
+      if (value && key !== "superType" && key !== "subType" && key !== "type") {
         searchParams.append(key, value);
       }
     }
 
-    // Construct the URL with parameters
     const queryString = searchParams.toString();
     window.location.href = `/cards${queryString ? `?${queryString}` : ""}`;
   };
@@ -65,11 +81,8 @@ export default function Search() {
                 <KeyWordsSelector />
                 <div className="flex flex-row gap-4">
                   <div className="border w-full rounded-md p-4 space-y-3">
-                    <ManaColorSelector />
+                    <ColorSelector />
                     <ManaCostSelector />
-                    <PowerSelector />
-                    <TougnessSelector />
-                    <LoyaltySelector />
                   </div>
                 </div>
               </div>
