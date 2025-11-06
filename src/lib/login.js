@@ -1,8 +1,12 @@
 "use server";
+
+import { cookies } from "next/headers";
+import { parse } from "cookie";
+
 export default async function login(email, password) {
   const backendUrl = "http://localhost:8080/api/auth/login";
+  const cookie = await cookies();
   if (!backendUrl) {
-    console.error("Environment variable BACKEND_CARDS is not set.");
     throw new Error("Backend URL is not configured.");
   }
 
@@ -12,28 +16,37 @@ export default async function login(email, password) {
       headers: {
         "Content-Type": "application/json",
       },
-      body: {
+      body: JSON.stringify({
         username: email,
         password: password,
-      },
+      }),
       cache: "no-store",
     });
 
     if (!response.ok) {
       const errorText = await response.text();
-      console.error(
-        `HTTP error! status: ${response.status}, message: ${errorText}`
-      );
       throw new Error(
         `Failed to fetch data: ${response.status} - ${errorText}`
       );
     }
 
-    const data = await response.json();
+    const setCookieHeader = response.headers.get("set-cookie");
 
-    return {
-      data,
-    };
+    if (setCookieHeader) {
+      const parsedCookie = parse(setCookieHeader);
+      const { jwt, ...options } = parsedCookie;
+
+      cookie.set("jwt", jwt, {
+        httpOnly: true,
+        path: options.Path,
+        maxAge: Number(options["Max-Age"]),
+        secure: process.env.NODE_ENV === "production",
+        sameSite: "lax",
+      });
+    }
+
+    const data = await response.json();
+    return data;
   } catch (error) {
     throw error;
   }

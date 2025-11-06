@@ -1,4 +1,4 @@
-import LoginComponent from "@/components/login/LoginComponent";
+import LoginForm from "@/components/login/LoginForm";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -17,9 +17,7 @@ export default function Page() {
 
   return (
     <div className="flex flex-col items-center justify-center h-[90%]">
-      <form onSubmit={handleSubmit}>
-        <LoginComponent />
-      </form>
+      <LoginForm />
     </div>
   );
 }

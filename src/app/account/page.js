@@ -1,3 +1,5 @@
 export default function Page() {
-  return <div>Account</div>;
+  const { user } = useAuth();
+
+  return <div></div>;
 }
