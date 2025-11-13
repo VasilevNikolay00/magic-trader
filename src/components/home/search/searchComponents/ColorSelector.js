@@ -58,8 +58,8 @@ export default function ColorSelector() {
               variant={"colorless"}
               className={`text-xl border size-15 flex-1 relative ${
                 colorStates.get(color)
-                  ? "dark:bg-primary dark:hover:bg-primary/90"
-                  : "dark:bg-accent  dark:hover:bg-input"
+                  ? "bg-primary backdrop-blur-sm  hover:bg-primary/90"
+                  : "bg-card/10 backdrop-blur-sm  hover:bg-input"
               }`}
               onClick={(e) => {
                 e.preventDefault();

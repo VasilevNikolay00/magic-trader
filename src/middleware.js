@@ -1,48 +1,42 @@
-// middleware.js
+// In middleware.js (at the root of your project)
+
 import { NextResponse } from "next/server";
 import { jwtVerify } from "jose";
-
-const secretString = process.env.JWT_SECRET;
 
 export async function middleware(request) {
   const { pathname } = request.nextUrl;
 
-  const cookie = request.cookies.get("jwt");
+  const protectedPaths = ["/account", "/collection"];
 
-  if (pathname.startsWith("/api/logout")) {
+  const isProtectedPath = protectedPaths.some((path) =>
+    pathname.startsWith(path)
+  );
+
+  if (!isProtectedPath) {
     return NextResponse.next();
   }
 
-  if (cookie && secretString) {
-    try {
-      const secret = Buffer.from(secretString, "base64");
-      await jwtVerify(cookie.value, secret);
+  const cookie = request.cookies.get("jwt");
+  const secretString = process.env.JWT_SECRET;
+  const loginUrl = new URL("/login", request.url);
 
-      return NextResponse.next();
-    } catch (error) {
-      // Token is invalid. Redirect to the logout API route to clear the bad cookie.
-      console.error("JWT Verification failed in middleware:", error.mcooessage);
-
-      const logoutUrl = request.nextUrl.clone();
-      logoutUrl.pathname = "/api/logout";
-
-      return NextResponse.redirect(logoutUrl);
-    }
+  if (!cookie?.value || !secretString) {
+    console.log("No JWT found, redirecting to login.");
+    return NextResponse.redirect(loginUrl);
   }
 
-  return NextResponse.next();
+  // 4. If a token exists, verify it
+  try {
+    const secret = Buffer.from(secretString, "base64");
+    await jwtVerify(cookie.value, secret);
+  } catch (error) {
+    console.error("JWT Verification failed in middleware:", error.message);
+
+    return NextResponse.redirect(loginUrl);
+  }
 }
 
+// Your existing matcher is fine. It runs the middleware on all pages except static assets.
 export const config = {
-  matcher: [
-    /*
-     * Match all request paths except for the ones starting with:
-     * - api (API routes, though we manually allow /api/logout above)
-     * - _next/static (static files)
-     * - _next/image (image optimization files)
-     * - favicon.ico (favicon file)
-     * This prevents the middleware from running on static assets and internal Next.js paths.
-     */
-    "/((?!api|_next/static|_next/image|favicon.ico).*)",
-  ],
+  matcher: ["/((?!api|_next/static|_next/image|favicon.ico).*)"],
 };

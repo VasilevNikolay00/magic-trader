@@ -12,14 +12,14 @@ export default function ImageOverview({ card }) {
 
   return (
     <div
-      className="relative rounded-xl bg-card border-2 border-card "
+      className="relative rounded-2xl bg-card border-2 border-accent "
       style={{ aspectRatio: "63 / 88" }}
     >
       <Image
         src={imageSrc}
         alt={card.name || "Magic Card"}
         fill
-        className="relative bg-accent rounded-4xl bg-card transition-opacity duration-500"
+        className="relative rounded-2xl bg-card/1 transition-opacity duration-500"
         onError={() => setImageError(true)}
         loading="lazy"
         sizes="(max-width: 488px) 100vw, (max-width: 680px) 50vw, 33vw"

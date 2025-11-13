@@ -54,9 +54,8 @@ export default function OrderSelector() {
     router.push(`${pathname}?${params.toString()}`);
   };
   console.log("search: " + searchTerm);
-
   return (
-    <div className="bg-card w-[90%] rounded-2xl h-[5%] items-center gap-4 flex flex-row">
+    <div className=" bg-card/50 backdrop-blur-2xl rounded-2xl shadow-xl w-full h-[5%] items-center gap-4 flex flex-row">
       <Label className={"pl-10"}>Order By</Label>
       <div>
         <Select onValueChange={(value) => setOrder(value)}>

@@ -3,7 +3,7 @@ import Search from "@/components/home/search/Search.js";
 
 export default function Home() {
   return (
-    <div className=" flex flex-row h-[90%] justify-center">
+    <div className="py-4 gap-4 flex flex-row h-[90%] justify-center">
       <Search />
       <News />
     </div>

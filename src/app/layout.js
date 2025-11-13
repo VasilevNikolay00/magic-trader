@@ -1,5 +1,3 @@
-// app/layout.js
-
 import { fetchAllRssFeeds } from "@/lib/rss";
 import { getAuthenticatedUser } from "@/lib/auth";
 import { Providers } from "@/components/Providers";
@@ -23,8 +21,8 @@ export default async function RootLayout({ children }) {
       <body className="antialiased m-0 p-0 h-screen overflow-hidden">
         <div className="fixed inset-0 bg-[url(/front_page_background.webp)] bg-no-repeat bg-cover bg-center -z-10" />
         <Providers user={user}>
-          <div className="h-screen flex flex-col">
-            <div className="w-9/10 mx-auto flex-1 overflow-auto">
+          <div className=" h-screen flex flex-col">
+            <div className="w-[90%] mx-auto flex-1 overflow-auto">
               <NavBar />
               {children}
             </div>

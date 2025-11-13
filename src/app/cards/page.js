@@ -21,14 +21,14 @@ export default async function Page({ searchParams }) {
 
   if (error) {
     return (
-      <div className="flex flex-row h-[90%] w-full pt-4 bg-red justify-center items-center">
+      <div className="flex flex-row h-[90%] bg-red justify-center items-center">
         <p className="text-red-500 text-2xl">Error: {error.message}</p>
       </div>
     );
   }
 
   return (
-    <div className="flex flex-col h-[90%] w-full pt-4 gap-2 items-center relative ">
+    <div className="flex flex-col w-full h-[90%] pt-4 gap-2 items-center relative ">
       <OrderSelector />
       <CardDisplay cardData={cardData} />
       <PaginationCardControls pageData={pageData} />

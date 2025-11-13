@@ -1,5 +1,9 @@
-export default function Page() {
-  const { user } = useAuth();
+import AccountChangeForm from "@/components/account/AccountChangeForm";
 
-  return <div></div>;
+export default function Page() {
+  return (
+    <div className="flex flex-col w-full h-[90%] pt-4 gap-2 items-center">
+      <AccountChangeForm />
+    </div>
+  );
 }

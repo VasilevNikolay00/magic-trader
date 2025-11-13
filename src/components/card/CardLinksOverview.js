@@ -4,8 +4,11 @@ import { Item, ItemContent } from "../ui/item";
 
 export default function CardLinksOverview({ data }) {
   return (
-    <div className=" relative flex border p-2 rounded-2xl gap-2 flex-col">
-      <a href={data.purchaseUrisTcgplayer} className="w-full">
+    <div className="bg-card/50 shadow-xl relative flex border p-2 rounded-2xl gap-2 flex-col">
+      <a
+        href={data.purchaseUrisTcgplayer}
+        className="w-full bg-card/50 shadow-xl rounded-2xl"
+      >
         <Button
           size="lg"
           className="w-full relative"
@@ -21,8 +24,11 @@ export default function CardLinksOverview({ data }) {
           />
         </Button>
       </a>
-      <a href={data.purchaseUrisCardmarket} className="w-full">
-        <Button size="lg" className="w-full" variant="outline" target="_blank">
+      <a
+        href={data.purchaseUrisCardmarket}
+        className="w-full bg-card/50 shadow-xl rounded-2xl"
+      >
+        <Button size="lg" className="w-full " variant="outline" target="_blank">
           <Image
             src="/logos/cardmarket.png"
             alt="CardMarket"
@@ -32,7 +38,10 @@ export default function CardLinksOverview({ data }) {
           />
         </Button>
       </a>
-      <a href={data.purchaseUrisCardhoarder} className="w-full">
+      <a
+        href={data.purchaseUrisCardhoarder}
+        className="w-full bg-card/50 shadow-xl rounded-2xl"
+      >
         <Button size="lg" className="w-full" variant="outline" target="_blank">
           <Image
             src="/logos/cardhoarder.png"

@@ -10,7 +10,7 @@ import Image from "next/image";
 export default function CardDataOverview({ card }) {
   if (!card) {
     return (
-      <Card className="w-full max-w-2xl mx-auto h-full flex items-center justify-center">
+      <Card className="bg-card shadow-xl rounded-2xl w-full max-w-2xl mx-auto h-full flex items-center justify-center">
         <CardContent>
           <p className="text-center text-muted-foreground">
             No card data available.
@@ -37,9 +37,9 @@ export default function CardDataOverview({ card }) {
   };
 
   const renderManaCostSymbols = (cost) => {
-    if (!cost) return <span className="text-gray-500">N/A</span>;
+    if (!cost) return <span className="text-muted-foreground">N/A</span>;
 
-    const symbols = cost.match(/{[^}]+}/g) || []; // Find all {symbol} patterns
+    const symbols = cost.match(/{[^}]+}/g) || [];
 
     return (
       <div className="flex items-center gap-0.5">
@@ -51,10 +51,7 @@ export default function CardDataOverview({ card }) {
             imageUrl = `/manaIcons/${char.toUpperCase()}.svg`;
           } else {
             return (
-              <span
-                key={index}
-                className="text-sm text-primary-foreground font-bold mx-px"
-              >
+              <span key={index} className="text-sm font-bold mx-px">
                 {symbol}
               </span>
             );
@@ -76,68 +73,102 @@ export default function CardDataOverview({ card }) {
   };
 
   return (
-    <Card className="w-full mx-auto h-full overflow-y-auto">
-      <CardHeader>
-        <div>
-          <CardTitle className="text-3xl font-bold">{card.name}</CardTitle>
-          <CardDescription className="text-muted-foreground mt-1">
-            {card.typeLine}
-          </CardDescription>
-        </div>
+    <Card className="bg-card/50 shadow-xl rounded-2xl w-full mx-auto h-full overflow-hidden flex flex-col">
+      <CardHeader className="space-y-1 pb-4">
+        <CardTitle className="text-3xl font-bold">{card.name}</CardTitle>
+        <CardDescription className="text-base mt-1">
+          {card.typeLine}
+        </CardDescription>
       </CardHeader>
-      <CardContent className="grid gap-4">
-        <div className="flex items-center space-x-2">
-          <p className="font-semibold">Mana Cost:</p>
-          {renderManaCostSymbols(card.manaCost)}
-          <p className="font-semibold ml-4">CMC:</p>
-          <p className="text-lg">{card.cmc}</p>
+
+      <CardContent className="flex-1 overflow-y-auto space-y-5">
+        {/* Mana Cost and CMC */}
+        <div className="flex items-center gap-6 p-3 bg-accent/30 rounded-lg border">
+          <div className="flex items-center gap-2">
+            <p className="font-semibold text-sm">Mana Cost:</p>
+            {renderManaCostSymbols(card.manaCost)}
+          </div>
+          <div className="flex items-center gap-2">
+            <p className="font-semibold text-sm">CMC:</p>
+            <p className="text-base font-bold text-primary">{card.cmc}</p>
+          </div>
         </div>
 
-        <div>
-          <p className="font-semibold">Oracle Text:</p>
-          <p className="whitespace-pre-wrap text-sm text-card-foreground">
-            {card.oracleText || "N/A"}
+        {/* Oracle Text */}
+        <div className="space-y-2">
+          <p className="font-semibold text-sm text-muted-foreground uppercase tracking-wide">
+            Oracle Text
           </p>
-        </div>
-
-        <div className="grid grid-cols-2 gap-x-4 gap-y-2">
-          <div>
-            <p className="font-semibold">Set:</p>
-            <p className="text-sm">
-              {card.setName} ({card.set.toUpperCase()})
+          <div className="p-4 bg-accent/30 rounded-lg border">
+            <p className="whitespace-pre-wrap text-sm leading-relaxed">
+              {card.oracleText || "N/A"}
             </p>
-          </div>
-          <div>
-            <p className="font-semibold">Rarity:</p>
-            <p className="capitalize text-sm">{card.rarity}</p>
-          </div>
-          <div>
-            <p className="font-semibold">Artist:</p>
-            <p className="text-sm">{card.artist || "N/A"}</p>
-          </div>
-          <div>
-            <p className="font-semibold">Released At:</p>
-            <p className="text-sm">
-              {new Date(card.releasedAt).toLocaleDateString()}
-            </p>
-          </div>
-          <div>
-            <p className="font-semibold">Colors:</p>
-            <p className="text-sm">{card.colors || "Colorless"}</p>
-          </div>
-          <div>
-            <p className="font-semibold">Color Identity:</p>
-            <p className="text-sm">{card.colorIdentity || "Colorless"}</p>
-          </div>
-          <div>
-            <p className="font-semibold">Keywods:</p>
-            <p className="text-sm">{card.keywords || "N/A"}</p>
           </div>
         </div>
 
-        <div>
-          <p className="font-semibold">Legal In:</p>
-          <p className="text-sm">{getLegalities(card)}</p>
+        {/* Card Details Grid */}
+        <div className="space-y-2">
+          <p className="font-semibold text-sm text-muted-foreground uppercase tracking-wide">
+            Card Details
+          </p>
+          <div className="grid grid-cols-2 gap-3 p-4 bg-accent/30 rounded-lg border">
+            <div>
+              <p className="font-semibold text-xs text-muted-foreground mb-1">
+                Set
+              </p>
+              <p className="text-sm">
+                {card.setName} ({card.set.toUpperCase()})
+              </p>
+            </div>
+            <div>
+              <p className="font-semibold text-xs text-muted-foreground mb-1">
+                Rarity
+              </p>
+              <p className="capitalize text-sm">{card.rarity}</p>
+            </div>
+            <div>
+              <p className="font-semibold text-xs text-muted-foreground mb-1">
+                Artist
+              </p>
+              <p className="text-sm">{card.artist || "N/A"}</p>
+            </div>
+            <div>
+              <p className="font-semibold text-xs text-muted-foreground mb-1">
+                Released
+              </p>
+              <p className="text-sm">
+                {new Date(card.releasedAt).toLocaleDateString()}
+              </p>
+            </div>
+            <div>
+              <p className="font-semibold text-xs text-muted-foreground mb-1">
+                Colors
+              </p>
+              <p className="text-sm">{card.colors || "Colorless"}</p>
+            </div>
+            <div>
+              <p className="font-semibold text-xs text-muted-foreground mb-1">
+                Color Identity
+              </p>
+              <p className="text-sm">{card.colorIdentity || "Colorless"}</p>
+            </div>
+            <div className="col-span-2">
+              <p className="font-semibold text-xs text-muted-foreground mb-1">
+                Keywords
+              </p>
+              <p className="text-sm">{card.keywords || "N/A"}</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Legalities */}
+        <div className="space-y-2">
+          <p className="font-semibold text-sm text-muted-foreground uppercase tracking-wide">
+            Format Legality
+          </p>
+          <div className="p-4 bg-accent/30 rounded-lg border">
+            <p className="text-sm leading-relaxed">{getLegalities(card)}</p>
+          </div>
         </div>
       </CardContent>
     </Card>

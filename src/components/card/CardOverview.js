@@ -9,12 +9,12 @@ export default async function CardOverview({ card }) {
   const rulingData = await rulingRequest({ id: card.oracleId });
   console.log(card);
   return (
-    <div className="flex flex-row gap-4 w-[90%] h-full bg-card overflow-hidden rounded-2xl p-4">
-      <div className="flex flex-col w-1/3 gap-2 h-full relative bg-card rounded-2xl">
+    <div className=" bg-accent/50 backdrop-blur-xl rounded-2xl shadow-xl flex flex-row gap-2 w-full h-full overflow-hidden p-4">
+      <div className="rounded-2xl shadow-xl flex flex-col w-1/3 gap-2 h-full relative">
         <ImageOverview card={card} />
         <CardVariationCarocel id={card.oracleId} cardName={card.name} />
       </div>
-      <div className="flex flex-col h-full w-2/3 gap-2 relative bg-card">
+      <div className=" rounded-2xl  flex flex-col h-full w-2/3 gap-2 relative">
         <div className="flex flex-row gap-2 h-7/10">
           <CardDataOverview card={card} />
           <CardLinksOverfiew data={card} />
