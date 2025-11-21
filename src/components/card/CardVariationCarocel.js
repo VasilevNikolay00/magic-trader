@@ -26,7 +26,7 @@ export default async function CardVariationCarousel({ id, cardName }) {
     return (
       <div
         style={{ aspectRatio: "63 / 88" }}
-        className="flex overflow-x-auto justify-center items-center space-x-2 bg-accent p-2 h-full rounded-lg shadow-inner"
+        className="flex overflow-x-auto justify-center items-center space-x-2 bg-card/50 backdrop-blur-2xl p-2 h-full rounded-lg shadow-inner w-full"
       >
         <span className="text-2xl text-shadow-2xs text-accent-foreground">
           No variations found for {cardName}.
@@ -36,7 +36,7 @@ export default async function CardVariationCarousel({ id, cardName }) {
   }
 
   return (
-    <div className="flex overflow-x-auto space-x-2 bg-accent p-2 h-full rounded-lg shadow-inner">
+    <div className="flex overflow-x-auto space-x-2 bg-card/50 backdrop-blur-2xl p-2 h-full w-full rounded-lg shadow-inner">
       {data.map((card) => (
         <div key={card.cardId || card.id} className="flex h-full">
           <CardImage size="small" card={card}></CardImage>

@@ -9,6 +9,7 @@ const baseButtons = [
   { title: "Home", href: "/" },
   { title: "Cards", href: "/cards" },
   { title: "Decks", href: "/decks" },
+  { title: "Collection", href: "/collection" },
   { title: "Deck Builder", href: "/deckbuilder" },
 ];
 

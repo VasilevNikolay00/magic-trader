@@ -12,6 +12,7 @@ import { Label } from "../ui/label";
 import { useRouter, useSearchParams, usePathname } from "next/navigation"; // Import hooks
 import { useState } from "react";
 import { Input } from "../ui/input";
+import { Checkbox } from "../ui/checkbox";
 
 export default function OrderSelector() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -53,6 +54,21 @@ export default function OrderSelector() {
     params.set("page", "0");
     router.push(`${pathname}?${params.toString()}`);
   };
+
+  const setIncludeTokens = (checked) => { // Renamed 'value' to 'checked' for clarity
+    const params = new URLSearchParams(Array.from(searchParams.entries()));
+
+    if (checked) {
+      params.set("includeTokens", "true"); 
+    } else {
+      params.delete("includeTokens"); 
+    }
+
+    router.push(`${pathname}?${params.toString()}`);
+  };
+
+  const currentIncludeTokens = searchParams.get("includeTokens") === "true";
+
   console.log("search: " + searchTerm);
   return (
     <div className=" bg-card/50 backdrop-blur-2xl rounded-2xl shadow-xl w-full h-[5%] items-center gap-4 flex flex-row">
@@ -119,7 +135,15 @@ export default function OrderSelector() {
           </SelectContent>
         </Select>
       </div>
-      <div className="w-4/5 bg-red h-full"></div>
+      <Label className={"pl-10 w-sm"}>Include Tokens</Label>
+      <div>
+      <Checkbox
+        id="includeTokens"
+        checked={currentIncludeTokens} 
+        onCheckedChange={setIncludeTokens}
+      />      
+      </div>
+      <div className="w-4/5 bg-red h-full"/>
       <div className="flex flex-row gap-4 pr-10 justify-end w-full">
         <form onSubmit={findByName}>
           <Input

@@ -11,7 +11,6 @@ export async function cardsRequest(params = {}) {
 
   queryParams.append("page", page.toString());
   queryParams.append("size", size.toString());
-
   for (const key in params) {
     if (Object.prototype.hasOwnProperty.call(params, key)) {
       if (key !== "page" && key !== "size" && params[key]) {

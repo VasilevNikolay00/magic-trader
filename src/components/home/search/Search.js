@@ -27,7 +27,6 @@ export default function Search() {
     const superTypeValue = formData.get("superType") || "";
     const subTypeValue = formData.get("subType") || "";
     const typeValue = formData.get("type") || "";
-
     let combinedValue = "";
     if (subTypeValue && !superTypeValue && !typeValue) {
       combinedValue = subTypeValue.toLocaleLowerCase();

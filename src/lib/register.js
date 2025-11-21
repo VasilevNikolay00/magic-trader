@@ -9,7 +9,7 @@ export default async function register({
   password,
   confirmPassword,
 }) {
-  // Basic validation
+  console.log(nickname);
   if (!nickname || !email || !password || !confirmPassword) {
     return { error: "All fields are required." };
   }
@@ -54,16 +54,11 @@ export default async function register({
 
     const data = await response.json();
 
-    // Revalidate a path if necessary, for example, a list of users.
     revalidatePath("/admin/users");
-
-    // On successful registration, you'll likely want to redirect the user
-    // to the login page or their new dashboard.
   } catch (error) {
     console.error(error);
     return { error: "An unexpected error occurred during registration." };
   }
 
-  // Redirect to the login page after a successful registration
-  redirect("/login");
+  redirect("/");
 }

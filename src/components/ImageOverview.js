@@ -12,7 +12,7 @@ export default function ImageOverview({ card }) {
 
   return (
     <div
-      className="relative rounded-2xl bg-card border-2 border-accent "
+      className={`relative rounded-2xl bg-card border-2 border-accent h-[80%] w-[80%]`}
       style={{ aspectRatio: "63 / 88" }}
     >
       <Image

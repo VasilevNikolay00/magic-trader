@@ -27,7 +27,6 @@ export default async function accountUpdateAction({
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        // Include the Authorization header
         Authorization: `Bearer ${token}`,
       },
       body: JSON.stringify({

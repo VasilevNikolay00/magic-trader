@@ -20,20 +20,49 @@ export default function CardDataOverview({ card }) {
     );
   }
 
+  console.log(card);
   const getLegalities = (card) => {
+    // List of keys corresponding to Magic: The Gathering formats
+    const formatKeys = [
+      "standard",
+      "future",
+      "historic",
+      "timeless",
+      "gladiator",
+      "pioneer",
+      "modern",
+      "legacy",
+      "pauper",
+      "vintage",
+      "penny",
+      "commander",
+      "oathBreaker",
+      "standardBrawl",
+      "brawl",
+      "alchemy",
+      "pauperCommander",
+      "duel",
+      "oldSchool",
+      "premodern",
+      "predh",
+    ];
+
     const legalities = [];
-    for (const key in card) {
-      if (key.startsWith("legalities") && card[key] === "legal") {
-        const formatName = key
-          .replace("legalities", "")
-          .replace(/([A-Z])/g, " $1")
-          .trim();
+
+    // Iterate over the format keys and check the card's status for each
+    for (const key of formatKeys) {
+      // Check if the card object has the key and its value is 'legal'
+      if (card[key] === "legal") {
+        // Capitalize the first letter for better formatting
+        const formatName = key.charAt(0).toUpperCase() + key.slice(1);
         legalities.push(formatName);
       }
     }
+
+    // Return a comma-separated string of legal formats or a default message
     return legalities.length > 0
       ? legalities.join(", ")
-      : "Not Legal in any format";
+      : "**Not Legal in any format**";
   };
 
   const renderManaCostSymbols = (cost) => {

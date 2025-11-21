@@ -6,7 +6,7 @@ export default function CardLinksOverview({ data }) {
   return (
     <div className="bg-card/50 shadow-xl relative flex border p-2 rounded-2xl gap-2 flex-col">
       <a
-        href={data.purchaseUrisTcgplayer}
+        href={data.purchaseTcgplayer}
         className="w-full bg-card/50 shadow-xl rounded-2xl"
       >
         <Button
@@ -25,7 +25,7 @@ export default function CardLinksOverview({ data }) {
         </Button>
       </a>
       <a
-        href={data.purchaseUrisCardmarket}
+        href={data.purchaseCardmarket}
         className="w-full bg-card/50 shadow-xl rounded-2xl"
       >
         <Button size="lg" className="w-full " variant="outline" target="_blank">
@@ -39,7 +39,7 @@ export default function CardLinksOverview({ data }) {
         </Button>
       </a>
       <a
-        href={data.purchaseUrisCardhoarder}
+        href={data.purchaseCardhoarder}
         className="w-full bg-card/50 shadow-xl rounded-2xl"
       >
         <Button size="lg" className="w-full" variant="outline" target="_blank">
