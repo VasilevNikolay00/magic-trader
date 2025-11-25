@@ -5,13 +5,13 @@ import { card } from "@/lib/card";
 import { cardsRequest } from "@/lib/cardsRequest";
 import { getCollection } from "@/lib/getCollection";
 
-export default async function Page() {
+export default async function Page({ searchParams }) {
   let error;
   let cardData;
   let pageData;
 
   try {
-    const result = await getCollection();
+    const result = await getCollection(searchParams);
     cardData=result.data.content;
     pageData=result.data.page;
 

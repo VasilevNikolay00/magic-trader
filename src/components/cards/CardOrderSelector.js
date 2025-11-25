@@ -84,7 +84,7 @@ export default function OrderSelector() {
               <SelectItem value="releasedAt">Relase Date</SelectItem>
               <SelectItem value="set">Set</SelectItem>
               <SelectItem value="rarity">Rarity</SelectItem>
-              <SelectItem value="color">Color</SelectItem>
+              <SelectItem value="colors">Colors</SelectItem>
               <SelectItem value="cmc">Mana Cost</SelectItem>
               <SelectItem value="artist">Artist</SelectItem>
             </SelectGroup>
