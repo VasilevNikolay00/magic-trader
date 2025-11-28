@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useRef } from "react";
 import CardImage from "../CardImage";
+import { CollectionForm } from "../card/CollectionForm";
 
 export default function CardDisplay({ cardData }) {
   const scrollContainerRef = useRef(null);
@@ -26,7 +27,10 @@ export default function CardDisplay({ cardData }) {
           className="grid grid-cols-5 gap-4 relative p-4  pt-4"
         >
           {cardData.map((card, i) => (
-            <CardImage size="normal" key={card.id || i} i={i} card={card} />
+            <div key={card.id || i} className="flex flex-col gap-3">
+            <CardImage size="normal" i={i} card={card} />
+            <CollectionForm cardId={card.id}/>
+            </div>
           ))}
         </div>
       </div>

@@ -1,3 +1,4 @@
+"use server";
 export async function rulingRequest(params = {}) {
   const backendUrl = "http://localhost:8080/api/cards/ruling";
   if (!backendUrl) {

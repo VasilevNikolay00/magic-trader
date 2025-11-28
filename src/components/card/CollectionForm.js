@@ -4,16 +4,16 @@ import { useState, useTransition } from "react";
 import { Button } from "@/components/ui/button";
 import { Plus, Minus, Archive, Loader2 } from "lucide-react";
 import { addToCollection } from "@/lib/addToCollection";
-// Recommended: A toast library for user feedback
 import { toast } from "sonner";
+import { useAuth } from "@/context/AuthContext";
 
 export function CollectionForm({
   cardId,
   currentQuantity = 0,
-  collectionData,
 }) {
   const [quantity, setQuantity] = useState(currentQuantity);
   const [isPending, startTransition] = useTransition();
+  const { user } = useAuth();
 
   const handleAddToCollection = () => {
     startTransition(async () => {
@@ -33,10 +33,10 @@ export function CollectionForm({
   };
 
   const handleDecrement = () => {
-    // Allow setting quantity to 0 to remove a card
     setQuantity((prevQuantity) => Math.max(0, prevQuantity - 1));
   };
 
+  if(user){
   return (
     <div className="flex w-full items-center justify-center gap-4">
       <div className="flex items-center gap-4">
@@ -77,4 +77,7 @@ export function CollectionForm({
       </Button>
     </div>
   );
+  }else{
+    return ;
+  }
 }

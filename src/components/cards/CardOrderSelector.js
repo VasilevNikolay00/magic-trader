@@ -143,6 +143,14 @@ export default function OrderSelector() {
         onCheckedChange={setIncludeTokens}
       />      
       </div>
+       <Label className={"pl-10 w-sm"}>Show only owned cards</Label>
+      <div>
+      <Checkbox
+        id="includeTokens"
+        checked={currentIncludeTokens} 
+        onCheckedChange={setIncludeTokens}
+      />      
+      </div>
       <div className="w-4/5 bg-red h-full"/>
       <div className="flex flex-row gap-4 pr-10 justify-end w-full">
         <form onSubmit={findByName}>

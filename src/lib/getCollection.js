@@ -15,6 +15,7 @@ export async function getCollection(params = {}) {
   const page = params.page ? parseInt(params.page, 10) : 0;
   const size = params.size ? parseInt(params.size, 10) : 20;
 
+  
   queryParams.append("page", page.toString());
   queryParams.append("size", size.toString());
 
@@ -49,3 +50,4 @@ export async function getCollection(params = {}) {
     throw error;
   }
 }
+

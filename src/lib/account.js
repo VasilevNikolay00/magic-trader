@@ -46,7 +46,6 @@ export default async function accountUpdateAction({
     }
 
     const data = await response.json();
-    console.log(data);
     revalidatePath("/account");
 
     return data;

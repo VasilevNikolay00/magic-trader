@@ -4,36 +4,44 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import { useAuth } from "@/context/AuthContext";
 import { Label } from "./ui/label";
+import { logout } from "@/lib/logout";
 
 const baseButtons = [
-  { title: "Home", href: "/" },
-  { title: "Cards", href: "/cards" },
-  { title: "Decks", href: "/decks" },
-  { title: "Collection", href: "/collection" },
-  { title: "Deck Builder", href: "/deckbuilder" },
+  { title: "Home", href: "/", requireLogin: false },
+  { title: "Cards", href: "/cards", requireLogin: false },
+  { title: "Collection", href: "/collection", requireLogin: true },
+  { title: "Decks", href: "/decks", requireLogin: false },
+  { title: "Deck Builder", href: "/deckbuilder", requireLogin: false },
 ];
 
 export default function NavBar() {
   const { user } = useAuth();
-
   return (
     <div className="mt-4 mb-2">
       <nav className="bg-card/50 backdrop-blur-lg rounded-2xl shadow-xl">
         <div className="flex items-center justify-between px-6 py-4">
           {/* Left side - Navigation links */}
           <div className="flex items-center gap-2">
-            {baseButtons.map((item, i) => (
-              <Link href={item.href} key={i}>
-                <Button
-                  variant="ghost"
-                  className="hover:bg-accent hover:text-accent-foreground transition-all duration-200 font-medium"
-                >
-                  {item.title}
-                </Button>
-              </Link>
-            ))}
-          </div>
+            {baseButtons.map((item, i) => {
+              // LOGIC: If the item requires login AND the user is not logged in, return null (render nothing).
+              if (item.requireLogin && !user) {
+                return null;
+              }
 
+              // Otherwise, render the button
+              return (
+                <Link href={item.href} key={i}>
+                  <Button
+                    variant="ghost"
+                    className="hover:bg-accent hover:text-accent-foreground transition-all duration-200 font-medium"
+                  >
+                    {item.title}
+                  </Button>
+                </Link>
+              );
+            })}
+          </div>
+            
           {/* Right side - User section */}
           <div className="flex items-center gap-3">
             {user ? (
@@ -51,19 +59,26 @@ export default function NavBar() {
                     Account
                   </Button>
                 </Link>
+                <Button
+                    variant="secondary"
+                    className="transition-all duration-200 hover:scale-105"
+                    onClick={()=>logout()}
+                  >
+                    Logout
+                </Button>
               </div>
             ) : (
               <div>
                 <Button
-                  asChild // `asChild` merges the Button's props and styles into its child (the Link)
-                  variant="default" // The primary button style
+                  asChild
+                  variant="default"
                   className="rounded-r-none transition-all duration-200 hover:scale-105"
                 >
                   <Link href="/login">Login</Link>
                 </Button>
                 <Button
                   asChild
-                  variant="outline" // A secondary style for contrast
+                  variant="outline"
                   className="rounded-l-none border-l-0 transition-all duration-200 hover:scale-105"
                 >
                   <Link href="/register">Register</Link>

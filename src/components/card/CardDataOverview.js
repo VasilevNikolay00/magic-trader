@@ -20,7 +20,6 @@ export default function CardDataOverview({ card }) {
     );
   }
 
-  console.log(card);
   const getLegalities = (card) => {
     // List of keys corresponding to Magic: The Gathering formats
     const formatKeys = [

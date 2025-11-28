@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import { Spinner } from "./ui/spinner";
 
 export default function CardImage({ card, size }) {
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -40,13 +41,8 @@ export default function CardImage({ card, size }) {
       >
         <div className="relative w-full h-full rounded-xl overflow-hidden bg-gradient-to-br from-card via-accent to-gray-900">
           {!imageLoaded && !imageError && (
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-r from-red-500 via-card to-red-500 rounded-full blur-xl opacity-50" />
-                <div className="relative bg-card rounded-lg p-4">
-                  <div className="w-8 h-8 border-4 border-red-200 border-t-red-600 rounded-full animate-spin" />
-                </div>
-              </div>
+            <div className="absolute inset-0 flex items-center justify-center h-full w-full">
+              <Spinner className="size-10 text-primary"/>
             </div>
           )}
           {!imageError ? (
