@@ -2,23 +2,19 @@
 
 import { ButtonGroup } from "@/components/ui/button-group";
 import Image from "next/image";
-const { Button } = require("@/components/ui/button");
-const { Label } = require("@radix-ui/react-dropdown-menu");
-const { useState } = require("react");
-import W from "/public/manaIcons/W.svg";
-import U from "/public/manaIcons/U.svg";
-import B from "/public/manaIcons/B.svg";
-import G from "/public/manaIcons/G.svg";
-import R from "/public/manaIcons/R.svg";
-import C from "/public/manaIcons/C.svg";
+import { Button } from "@/components/ui/button";
+import { Label } from "@radix-ui/react-dropdown-menu";
+import { useState } from "react";
 
+// 1. Remove imports.
+// 2. Define the paths as strings (relative to the public folder).
 const Images = {
-  W: W,
-  U: U,
-  B: B,
-  G: G,
-  R: R,
-  C: C,
+  W: "/manaIcons/W.svg",
+  U: "/manaIcons/U.svg",
+  B: "/manaIcons/B.svg",
+  G: "/manaIcons/G.svg",
+  R: "/manaIcons/R.svg",
+  C: "/manaIcons/C.svg",
 };
 
 export default function ColorSelector() {
@@ -46,6 +42,7 @@ export default function ColorSelector() {
       .filter((color) => colorStates.get(color))
       .join(",");
   };
+
   return (
     <div>
       <input type="hidden" name="colors" value={getActiveColors()} />
@@ -58,16 +55,17 @@ export default function ColorSelector() {
               variant={"colorless"}
               className={`text-xl border size-15 flex-1 relative ${
                 colorStates.get(color)
-                  ? "bg-primary backdrop-blur-sm  hover:bg-primary/90"
-                  : "bg-card/10 backdrop-blur-sm  hover:bg-input"
+                  ? "bg-primary backdrop-blur-sm hover:bg-primary/90"
+                  : "bg-card/10 backdrop-blur-sm hover:bg-input"
               }`}
               onClick={(e) => {
                 e.preventDefault();
                 toggleColor(color);
               }}
             >
+              {/* 3. Use Images[color] directly (remove .src) */}
               <Image
-                src={Images[color].src}
+                src={Images[color]}
                 alt={color}
                 fill
                 className="object-contain p-2"

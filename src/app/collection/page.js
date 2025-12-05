@@ -1,17 +1,17 @@
 import CardDisplay from "@/components/cards/CardDisplay";
 import OrderSelector from "@/components/cards/CardOrderSelector";
 import PaginationCardControls from "@/components/cards/PaginationCardControls";
-import { card } from "@/lib/card";
-import { cardsRequest } from "@/lib/cardsRequest";
+import CollectionOrderSelector from "@/components/collection/CollectionOrderSelector";
 import { getCollection } from "@/lib/getCollection";
 
 export default async function Page({ searchParams }) {
-  let error;
-  let cardData;
+  let error = null;
+  let cardData = [];
   let pageData;
 
   try {
-    const result = await getCollection(searchParams);
+    const resolvedSearchParams = await searchParams;
+    const result = await getCollection(resolvedSearchParams);
     cardData=result.data.content;
     pageData=result.data.page;
 
@@ -30,7 +30,7 @@ export default async function Page({ searchParams }) {
 
   return (
     <div className="flex flex-col w-full h-[90%] pt-4 gap-2 items-center relative ">
-      <OrderSelector/>
+      <CollectionOrderSelector/>
       <CardDisplay cardData={cardData} />
       <PaginationCardControls pageData={pageData} />
     </div>

@@ -14,7 +14,7 @@ import { useState } from "react";
 import { Input } from "../ui/input";
 import { Checkbox } from "../ui/checkbox";
 
-export default function OrderSelector() {
+export default function CollectionOrderSelector() {
   const [searchTerm, setSearchTerm] = useState("");
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -69,7 +69,6 @@ export default function OrderSelector() {
 
   const currentIncludeTokens = searchParams.get("includeTokens") === "true";
 
-  console.log("search: " + searchTerm);
   return (
     <div className=" bg-card/50 backdrop-blur-2xl rounded-2xl shadow-xl w-full h-[5%] items-center gap-4 flex flex-row">
       <Label className={"pl-10"}>Order By</Label>
@@ -105,7 +104,7 @@ export default function OrderSelector() {
           </SelectContent>
         </Select>
       </div>
-      <Label className={"pl-10"}>Language</Label>
+      {/* <Label className={"pl-10"}>Language</Label>
       <div>
         <Select onValueChange={(value) => setLanguage(value)}>
           <SelectTrigger>
@@ -134,15 +133,15 @@ export default function OrderSelector() {
             </SelectGroup>
           </SelectContent>
         </Select>
-      </div>
-      <Label className={"pl-10 w-sm"}>Include Tokens</Label>
+      </div> */}
+      {/* <Label className={"pl-10 w-sm"}>Include Tokens</Label>
       <div>
       <Checkbox
         id="includeTokens"
         checked={currentIncludeTokens} 
         onCheckedChange={setIncludeTokens}
       />      
-      </div>
+      </div> */}
       <div className="w-4/5 bg-red h-full"/>
       <div className="flex flex-row gap-4 pr-10 justify-end w-full">
         <form onSubmit={findByName}>

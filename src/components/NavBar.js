@@ -10,8 +10,6 @@ const baseButtons = [
   { title: "Home", href: "/", requireLogin: false },
   { title: "Cards", href: "/cards", requireLogin: false },
   { title: "Collection", href: "/collection", requireLogin: true },
-  { title: "Decks", href: "/decks", requireLogin: false },
-  { title: "Deck Builder", href: "/deckbuilder", requireLogin: false },
 ];
 
 export default function NavBar() {

@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useState, useEffect } from "react";
 
 const AuthContext = createContext({
   user: null,
@@ -9,6 +9,11 @@ const AuthContext = createContext({
 
 export function AuthProvider({ initialUser, children }) {
   const [user, setUser] = useState(initialUser);
+
+  
+  useEffect(() => {
+    setUser(initialUser);
+  }, [initialUser]);
 
   return (
     <AuthContext.Provider value={{ user, setUser }}>

@@ -6,8 +6,22 @@ import {
   CardContent,
 } from "@/components/ui/card";
 import Image from "next/image";
+import { Spinner } from "@/components/ui/spinner"; // Ensure this path matches your project
 
-export default function CardDataOverview({ card }) {
+export default function CardDataOverview({ card, isLoading }) {
+  // 1. Loading State
+  if (isLoading) {
+    return (
+      <Card className="bg-card/50 shadow-xl rounded-2xl w-full mx-auto h-full min-h-[400px] flex items-center justify-center">
+        <CardContent className="flex flex-col items-center gap-2">
+          <Spinner size="large" /> {/* Add size prop if your spinner supports it */}
+          <p className="text-muted-foreground text-sm">Loading card data...</p>
+        </CardContent>
+      </Card>
+    );
+  }
+
+  // 2. Empty State (Not loading, but no card data)
   if (!card) {
     return (
       <Card className="bg-card shadow-xl rounded-2xl w-full max-w-2xl mx-auto h-full flex items-center justify-center">
@@ -20,50 +34,7 @@ export default function CardDataOverview({ card }) {
     );
   }
 
-  const getLegalities = (card) => {
-    // List of keys corresponding to Magic: The Gathering formats
-    const formatKeys = [
-      "standard",
-      "future",
-      "historic",
-      "timeless",
-      "gladiator",
-      "pioneer",
-      "modern",
-      "legacy",
-      "pauper",
-      "vintage",
-      "penny",
-      "commander",
-      "oathBreaker",
-      "standardBrawl",
-      "brawl",
-      "alchemy",
-      "pauperCommander",
-      "duel",
-      "oldSchool",
-      "premodern",
-      "predh",
-    ];
-
-    const legalities = [];
-
-    // Iterate over the format keys and check the card's status for each
-    for (const key of formatKeys) {
-      // Check if the card object has the key and its value is 'legal'
-      if (card[key] === "legal") {
-        // Capitalize the first letter for better formatting
-        const formatName = key.charAt(0).toUpperCase() + key.slice(1);
-        legalities.push(formatName);
-      }
-    }
-
-    // Return a comma-separated string of legal formats or a default message
-    return legalities.length > 0
-      ? legalities.join(", ")
-      : "**Not Legal in any format**";
-  };
-
+  // 3. Render Content Helpers
   const renderManaCostSymbols = (cost) => {
     if (!cost) return <span className="text-muted-foreground">N/A</span>;
 
@@ -75,12 +46,15 @@ export default function CardDataOverview({ card }) {
           const char = symbol.replace(/{|}/g, "");
           let imageUrl;
 
+          // Check for basic colors + X. 
+          // Note: You might want to handle numbers (1, 2, 3) or phyrexian mana here later.
           if (["R", "W", "B", "U", "G", "C", "X"].includes(char)) {
             imageUrl = `/manaIcons/${char.toUpperCase()}.svg`;
           } else {
+            // Render text for numbers or unknown symbols
             return (
-              <span key={index} className="text-sm font-bold mx-px">
-                {symbol}
+              <span key={index} className="text-sm font-bold mx-px px-1 bg-gray-200 dark:bg-gray-700 rounded-full min-w-[1.2rem] text-center inline-block">
+                {char}
               </span>
             );
           }
@@ -100,6 +74,7 @@ export default function CardDataOverview({ card }) {
     );
   };
 
+  // 4. Main Render
   return (
     <Card className="bg-card/50 shadow-xl rounded-2xl w-full mx-auto h-full overflow-hidden flex flex-col">
       <CardHeader className="space-y-1 pb-4">
@@ -186,16 +161,6 @@ export default function CardDataOverview({ card }) {
               </p>
               <p className="text-sm">{card.keywords || "N/A"}</p>
             </div>
-          </div>
-        </div>
-
-        {/* Legalities */}
-        <div className="space-y-2">
-          <p className="font-semibold text-sm text-muted-foreground uppercase tracking-wide">
-            Format Legality
-          </p>
-          <div className="p-4 bg-accent/30 rounded-lg border">
-            <p className="text-sm leading-relaxed">{getLegalities(card)}</p>
           </div>
         </div>
       </CardContent>

@@ -54,7 +54,6 @@ export default function Search() {
   };
 
   return (
-    <div className="w-2/3 flex-1 h-full">
       <Card className="flex flex-col h-full shadow-xl bg-card/50 backdrop-blur-2xl">
         <CardHeader className="space-y-1 pb-6">
           <div className="flex items-center gap-3">
@@ -131,6 +130,5 @@ export default function Search() {
           </form>
         </CardContent>
       </Card>
-    </div>
   );
 }

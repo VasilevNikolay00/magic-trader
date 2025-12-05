@@ -29,7 +29,6 @@ export default function CardDisplay({ cardData }) {
           {cardData.map((card, i) => (
             <div key={card.id || i} className="flex flex-col gap-3">
             <CardImage size="normal" i={i} card={card} />
-            <CollectionForm cardId={card.id}/>
             </div>
           ))}
         </div>
